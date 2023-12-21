@@ -1,0 +1,3228 @@
+// Chariot Code
+
+// C# component
+class ChariotComponent
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello from Chariot Code!");
+    }
+    
+    // Functionality utilizing C#
+    public static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+# Python component
+def chariot_python():
+    return "Chariot Code welcomes Python integration!"
+
+# JavaScript component
+function chariotJavaScript() {
+    return "Chariot Code embraces JavaScript scripting!";
+}
+
+// Recommendations
+
+// Enhanced Python functionality
+# Python component with recommendation
+def perform_complex_calculation(x, y):
+    return x ** y
+
+// Improved JavaScript scripting
+function chariotJavaScriptWithRecommendation() {
+    // Utilize modern JavaScript features
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Chariot Code
+
+// C# component
+class ChariotComponent
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello from Chariot Code!");
+        
+        // Utilizing C# functionality
+        int sum = AddNumbers(5, 7);
+        Console.WriteLine("Sum: " + sum);
+    }
+    
+    // Functionality utilizing C#
+    public static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+# Python component
+def chariot_python():
+    return "Chariot Code welcomes Python integration!"
+
+# JavaScript component
+function chariotJavaScript() {
+    return "Chariot Code embraces JavaScript scripting!";
+}
+
+// Recommendations
+
+// Enhanced Python functionality
+# Python component with recommendation
+def perform_complex_calculation(x, y):
+    return x ** y
+
+// Improved JavaScript scripting
+function chariotJavaScriptWithRecommendation() {
+    // Utilize modern JavaScript features
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Additional Features
+
+// Combine functionality from different languages
+function chariotCombinedFunction() {
+    // Utilize Python functionality
+    const result = perform_complex_calculation(2, 3);
+    
+    // Utilize JavaScript functionality
+    const message = chariotJavaScriptWithRecommendation();
+    
+    // Combine results
+    return `Combined Result: ${result}, Message: ${message}`;
+}
+
+// Chariot Code
+
+// C# component
+class ChariotComponent
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello from Chariot Code!");
+        
+        // Utilizing C# functionality
+        int sum = AddNumbers(5, 7);
+        Console.WriteLine("Sum: " + sum);
+        
+        // Utilizing combined functionality
+        string combinedResult = chariotCombinedFunction();
+        Console.WriteLine(combinedResult);
+    }
+    
+    // Functionality utilizing C#
+    public static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+# Python component
+def chariot_python():
+    return "Chariot Code welcomes Python integration!"
+
+# JavaScript component
+function chariotJavaScript() {
+    return "Chariot Code embraces JavaScript scripting!";
+}
+
+// Recommendations
+
+// Enhanced Python functionality
+# Python component with recommendation
+def perform_complex_calculation(x, y):
+    return x ** y
+
+// Improved JavaScript scripting
+function chariotJavaScriptWithRecommendation() {
+    // Utilize modern JavaScript features
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Additional Features
+
+// Combine functionality from different languages
+function chariotCombinedFunction() {
+    // Utilize Python functionality
+    const result = perform_complex_calculation(2, 3);
+    
+    // Utilize JavaScript functionality
+    const message = chariotJavaScriptWithRecommendation();
+    
+    // Combine results
+    return `Combined Result: ${result}, Message: ${message}`;
+    
+    // Utilize Python and JavaScript within the same function
+    var pythonMessage = chariot_python();
+    return `${message} Python says: ${pythonMessage}`;
+}
+
+// Chariot Code
+
+// C# component
+class ChariotComponent
+{
+    // Chariot Code class definition
+    static void Main()
+    {
+        // Chariot Code console output
+        Console.WriteLine("Hello from Chariot Code!");
+        
+        // Utilizing C# functionality in Chariot Code
+        int sum = AddNumbers(5, 7);
+        Console.WriteLine("Sum: " + sum);
+        
+        // Utilizing combined functionality in Chariot Code
+        string combinedResult = chariotCombinedFunction();
+        Console.WriteLine(combinedResult);
+    }
+    
+    // Functionality utilizing C# in Chariot Code
+    public static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+# Python component
+def chariot_python():
+    # Chariot Code Python function
+    return "Chariot Code welcomes Python integration!"
+
+# JavaScript component
+function chariotJavaScript() {
+    // Chariot Code JavaScript function
+    return "Chariot Code embraces JavaScript scripting!";
+}
+
+// Recommendations
+
+# Enhanced Python functionality
+def perform_complex_calculation(x, y):
+    # Chariot Code enhanced Python function
+    return x ** y
+
+# Improved JavaScript scripting
+function chariotJavaScriptWithRecommendation() {
+    // Chariot Code JavaScript function with recommendation
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Additional Features
+
+# Combine functionality from different languages
+function chariotCombinedFunction() {
+    // Utilize Python functionality in Chariot Code
+    const result = perform_complex_calculation(2, 3);
+    
+    // Utilize JavaScript functionality in Chariot Code
+    const message = chariotJavaScriptWithRecommendation();
+    
+    // Combine results in Chariot Code
+    return `Combined Result: ${result}, Message: ${message}`;
+    
+    // Utilize Python and JavaScript within the same function in Chariot Code
+    var pythonMessage = chariot_python();
+    return `${message} Python says: ${pythonMessage}`;
+}
+
+// Chariot Code
+
+class ChariotComponent {
+    public ChariotComponent() {
+        Console.WriteLine("Hello from Chariot Code!");
+    }
+
+    // Functionality utilizing JavaScript-like syntax
+    public int AddNumbers(int a, int b) {
+        return a + b;
+    }
+}
+
+// JavaScript component with Python-like syntax
+function chariotPython() {
+    return "Chariot Code welcomes Python integration!";
+}
+
+// Recommendations
+
+// Enhanced Python functionality with JavaScript-like syntax
+function performComplexCalculation(x, y) {
+    return Math.pow(x, y);
+}
+
+// Improved JavaScript scripting with C#-like syntax
+function chariotJavaScriptWithRecommendation() {
+    // Utilize modern JavaScript features with Python-like syntax
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Chariot Code
+
+class ChariotComponent {
+    public ChariotComponent() {
+        Console.WriteLine("Hello from Chariot Code!");
+    }
+
+    // Functionality utilizing JavaScript-like syntax
+    public int AddNumbers(int a, int b) {
+        return a + b;
+    }
+
+    // Function to demonstrate Python-like list comprehension
+    public List<int> SquareNumbers(List<int> numbers) {
+        return numbers.Select(n => n * n).ToList();
+    }
+}
+
+// JavaScript component with Python-like syntax
+function chariotPython() {
+    return "Chariot Code welcomes Python integration!";
+}
+
+// Recommendations
+
+// Enhanced Python functionality with JavaScript-like syntax
+function performComplexCalculation(x, y) {
+    return Math.pow(x, y);
+}
+
+// Improved JavaScript scripting with C#-like syntax
+function chariotJavaScriptWithRecommendation() {
+    // Utilize modern JavaScript features with Python-like syntax
+    const greeting = "Chariot Code embraces modern JavaScript!";
+    return `${greeting} Now with enhanced features.`;
+}
+
+// Example usage
+
+// Instantiate ChariotComponent
+var chariotInstance = new ChariotComponent();
+
+// Use JavaScript-like method
+var result = chariotInstance.AddNumbers(5, 7);
+console.log(`Adding numbers: ${result}`);
+
+// Demonstrate Python-like list comprehension
+var numbers = [1, 2, 3, 4, 5];
+var squaredNumbers = chariotInstance.SquareNumbers(numbers);
+console.log(`Squared numbers: ${squaredNumbers}`);
+
+// Call Python-like function
+var pythonMessage = chariotPython();
+console.log(pythonMessage);
+
+// Call JavaScript-like function with enhanced features
+var javascriptMessage = chariotJavaScriptWithRecommendation();
+console.log(javascriptMessage);
+
+// Use Enhanced Python functionality with JavaScript-like syntax
+var complexResult = performComplexCalculation(2, 3);
+console.log(`Complex calculation result: ${complexResult}`); 
+
+import re
+
+class ChariotLexer:
+    def __init__(self, code):
+        self.code = code
+        self.tokens = []
+
+    def tokenize(self):
+        # Define regular expressions for different token types
+        patterns = [
+            (r'class|def|function|static|void|int|return|var|const|public', 'KEYWORD'),
+            (r'[\w_]+', 'IDENTIFIER'),
+            (r'\d+', 'NUMBER'),
+            (r'".*?"', 'STRING'),
+            (r'\#.*?$', 'COMMENT'),
+            (r'\/\/.*?$', 'COMMENT'),
+            (r'\{|\}|\(|\)|\[|\]|\,|\;', 'PUNCTUATION'),
+            (r'\=\>', 'ARROW'),
+            (r'\=\=|\=|\+|\-', 'OPERATOR'),
+            (r'[^\S\n]+', 'WHITESPACE')
+        ]
+
+        combined_patterns = '|'.join('(?P<%s>%s)' % pair for pair in patterns)
+        token_regex = re.compile(combined_patterns)
+
+        for match in token_regex.finditer(self.code):
+            token_type = match.lastgroup
+            token_value = match.group(token_type)
+            self.tokens.append((token_type, token_value))
+
+        return self.tokens
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+Identifier: [a-zA-Z_]\w*;
+Number: [0-9]+;
+String: '"' (~["\r\n])* '"';
+LineComment: '//' ~[\r\n]*;
+BlockComment: '/*' .*? '*/';
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '=' | '+' | '-';
+Whitespace: [ \t\r\n]+ -> skip;
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+Identifier: [a-zA-Z_]\w*;
+Number: [0-9]+ ('.' [0-9]+)?;
+String: '"' ~["\r\n]* '"';
+LineComment: '//' ~[\r\n]* -> skip;
+BlockComment: '/*' .*? '*/' -> skip;
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '=' | '+' | '-';
+Whitespace: [ \t\r\n]+ -> skip;
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+Identifier: [a-zA-Z_]\w*;
+Number: [0-9]+ ('.' [0-9]+)?;
+String: '"' ( ~["\r\n\\] | '\\' . )* '"';
+LineComment: '//' ~[\r\n]* -> skip;
+BlockComment: '/*' .*? '*/' -> skip;
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '=' | '+' | '-';
+Whitespace: [ \t\r\n]+ -> skip;
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+Identifier: [a-zA-Z_]\w*;
+Number: [0-9]+ ('.' [0-9]+)?;
+String: '"' ( ~["\r\n\\] | '\\' . )* '"';
+LineComment: '//' ~[\r\n]* -> skip;
+BlockComment: '/*' .*? '*/' -> skip;
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '=' | '+' | '-' | '*' | '/' | '%';
+ComparisonOperator: '==' | '!=' | '<' | '<=' | '>' | '>=';
+Whitespace: [ \t\r\n]+ -> skip;
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+If: 'if';
+Else: 'else';
+While: 'while';
+For: 'for';
+Break: 'break';
+Continue: 'continue';
+New: 'new';
+True: 'true';
+False: 'false';
+Null: 'null';
+This: 'this';
+Super: 'super';
+Try: 'try';
+Catch: 'catch';
+Finally: 'finally';
+Throw: 'throw';
+IntLiteral: [0-9]+ ('l' | 'L')?;
+DoubleLiteral: [0-9]+ '.' [0-9]+ (('e' | 'E') ('+' | '-')? [0-9]+)?;
+StringLiteral: '"' ( ~["\r\n\\] | '\\' . )* '"';
+Identifier: [a-zA-Z_]\w*;
+LineComment: '//' ~[\r\n]* -> skip;
+BlockComment: '/*' .*? '*/' -> skip;
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '!=' | '<' | '<=' | '>' | '>=' | '=' | '+' | '-' | '*' | '/' | '%';
+ComparisonOperator: '==' | '!=' | '<' | '<=' | '>' | '>=';
+LogicalOperator: '&&' | '||' | '!';
+Whitespace: [ \t\r\n]+ -> skip;
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+If: 'if';
+Else: 'else';
+While: 'while';
+For: 'for';
+Break: 'break';
+Continue: 'continue';
+New: 'new';
+True: 'true';
+False: 'false';
+Null: 'null';
+This: 'this';
+Super: 'super';
+Try: 'try';
+Catch: 'catch';
+Finally: 'finally';
+Throw: 'throw';
+IntLiteral: [0-9]+ ('l' | 'L')?;
+DoubleLiteral: [0-9]+ ('.' [0-9]+)? (('e' | 'E') ('+' | '-')? [0-9]+)?;
+StringLiteral: '"' ( ~["\r\n\\] | '\\' . )* '"';
+Identifier: [a-zA-Z_]\w*;
+LineComment: '//' ~[\r\n]* -> skip;
+BlockComment: '/*' .*? '*/' -> skip;
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '!=' | '<' | '<=' | '>' | '>=' | '=' | '+' | '-' | '*' | '/' | '%';
+ComparisonOperator: '==' | '!=' | '<' | '<=' | '>' | '>=';
+LogicalOperator: '&&' | '||' | '!';
+Whitespace: [ \t\r\n]+ -> skip;
+from ply import lex, yacc
+
+# Lexer
+tokens = (
+    'LANG', 'ID', 'CLASS', 'DEF', 'FUNCTION', 'PUBLIC', 'COLON', 'LPAREN', 'RPAREN', 'LBRACE', 'RBRACE',
+    'NEW', 'PRINT', 'STRING', 'INT', 'ARROW', 'PLUS', 'MINUS', 'TIMES', 'DIVIDE', 'NUMBER', 'COMMA', 'SEMICOLON'
+)
+
+t_COLON = r':'
+t_LPAREN = r'\('
+t_RPAREN = r'\)'
+t_LBRACE = r'\{'
+t_RBRACE = r'\}'
+t_ARROW = r'=>'
+t_PLUS = r'\+'
+t_MINUS = r'-'
+t_TIMES = r'\*'
+t_DIVIDE = r'/'
+t_COMMA = r','
+t_SEMICOLON = r';'
+
+t_ignore = ' \t\n'
+
+def t_LANG(t):
+    r'Chariot Code|Python|C#|JavaScript'
+    return t
+
+def t_CLASS(t):
+    r'class'
+    return t
+
+def t_DEF(t):
+    r'def'
+    return t
+
+def t_FUNCTION(t):
+    r'function'
+    return t
+
+def t_PUBLIC(t):
+    r'public'
+    return t
+
+def t_NEW(t):
+    r'new'
+    return t
+
+def t_PRINT(t):
+    r'Console\.WriteLine'
+    return t
+
+def t_STRING(t):
+    r'"[^"]*"'
+    return t
+
+def t_INT(t):
+    r'int'
+    return t
+
+def t_NUMBER(t):
+    r'\d+'
+    t.value = int(t.value)
+    return t
+
+# Error handling
+def t_error(t):
+    print(f"Illegal character '{t.value[0]}'")
+    t.lexer.skip(1)
+
+lexer = lex.lex()
+
+# Parser
+def p_program(p):
+    '''program : lang_declaration declarations'''
+    p[0] = (p[1], p[2])
+
+def p_lang_declaration(p):
+    '''lang_declaration : LANG COLON'''
+    p[0] = p[1]
+
+def p_declarations(p):
+    '''declarations : declaration declarations
+                    | empty'''
+    if len(p) > 1:
+        p[0] = [p[1]] + (p[2] if len(p) > 2 else [])
+
+def p_declaration(p):
+    '''declaration : class_declaration
+                   | function_declaration'''
+    p[0] = p[1]
+
+def p_class_declaration(p):
+    '''class_declaration : CLASS ID LBRACE class_members RBRACE'''
+    p[0] = ('class', p[2], p[4])
+
+def p_class_members(p):
+    '''class_members : method_declaration class_members
+                    | empty'''
+    if len(p) > 1:
+        p[0] = [p[1]] + (p[2] if len(p) > 2 else [])
+
+def p_method_declaration(p):
+    '''method_declaration : PUBLIC DEF ID LPAREN parameters RPAREN COLON type LBRACE statements RBRACE
+                         | FUNCTION ID LPAREN parameters RPAREN ARROW type LBRACE statements RBRACE'''
+    p[0] = ('method', p[3], p[5], p[8], p[10])
+
+def p_parameters(p):
+    '''parameters : parameter COMMA parameters
+                  | parameter'''
+    if len(p) > 2:
+        p[0] = [p[1]] + p[3]
+    else:
+        p[0] = [p[1]]
+
+def p_parameter(p):
+    '''parameter : type ID'''
+    p[0] = (p[1], p[2])
+
+def p_type(p):
+    '''type : ID
+            | INT
+            | STRING'''
+    p[0] = p[1]
+
+def p_statements(p):
+    '''statements : statement SEMICOLON statements
+                  | empty'''
+    if len(p) > 1:
+        p[0] = [p[1]] + (p[3] if len(p) > 3 else [])
+
+def p_statement(p):
+    '''statement : PRINT LPAREN expression RPAREN
+                 | assignment
+                 | return_statement
+                 | if_statement
+                 | while_statement
+                 | for_statement
+                 | break_statement
+                 | continue_statement
+                 | try_statement
+                 | block'''
+    p[0] = p[1]
+
+def p_assignment(p):
+    '''assignment : ID ASSIGN expression'''
+    p[0] = ('assign', p[1], p[3])
+
+def p_return_statement(p):
+    '''return_statement : RETURN expression'''
+    p[0] = ('return', p[2])
+
+def p_if_statement(p):
+    '''if_statement : IF LPAREN expression RPAREN statement
+                   | IF LPAREN expression RPAREN statement ELSE statement'''
+    if len(p) == 6:
+        p[0] = ('if', p[3], p[5])
+    else:
+        p[0] = ('if-else', p[3], p[5], p[7])
+
+def p_while_statement(p):
+    '''while_statement : WHILE LPAREN expression RPAREN statement'''
+    p[0] = ('while', p[3], p[5])
+
+def p_for_statement(p):
+    '''for_statement : FOR LPAREN for_init SEMICOLON expression SEMICOLON for_update RPAREN statement'''
+    p[0] = ('for', p[3], p[5], p[7], p[9])
+
+def p_for_init(p):
+    '''for_init : assignment
+                | var_declaration'''
+    p[0] = p[1]
+
+def p_for_update(p):
+    '''for_update : assignment
+                  | empty'''
+    p[0] = p[1]
+
+def p_break_statement(p):
+    '''break_statement : BREAK'''
+    p[0] = ('break',)
+
+def p_continue_statement(p):
+    '''continue_statement : CONTINUE'''
+    p[0] = ('continue',)
+
+def p_try_statement(p):
+    '''try_statement : TRY block catch_clauses
+                    | TRY block finally_clause
+                    | TRY block catch_clauses finally_clause'''
+    if len(p) == 4:
+        if isinstance(p[3][0], tuple):
+            p[0] = ('try-catch', p[2], p[3])
+        else:
+            p[0] = ('try-finally', p[2], p[3])
+    elif len(p) == 5:
+        p[0] = ('try-catch-finally', p[2], p[3], p[4])
+
+def p_catch_clauses(p):
+    '''catch_clauses : catch_clause catch_clauses
+                     | empty'''
+    if len(p) > 1:
+        p[0] = [p[1]] + (p[2] if len(p) > 2 else [])
+
+def p_catch_clause(p):
+    '''catch_clause : CATCH LPAREN parameter RPAREN block'''
+    p[0] = ('catch', p[3], p[5])
+
+def p_finally_clause(p):
+‘’‘finally_clause : FINALLY block’’’
+p[0] = (‘finally’, p[2])
+
+def p_block(p):
+‘’‘block : LBRACE statements RBRACE’’’
+p[0] = (‘block’, p[2])
+
+def p_expression(p):
+‘’‘expression : expression PLUS expression
+| expression MINUS expression
+| expression TIMES expression
+| expression DIVIDE expression
+| LPAREN expression RPAREN
+| literal
+| ID
+| method_call
+| array_access
+| function_call
+| instantiation’’’
+if len(p) == 4:
+p[0] = (‘binop’, p[2], p[1], p[3])
+elif len(p) == 3:
+p[0] = (‘unaryop’, p[1], p[2])
+else:
+p[0] = p[1]
+
+def p_literal(p):
+‘’‘literal : STRING
+| NUMBER’’’
+p[0] = (‘literal’, p[1])
+
+def p_method_call(p):
+‘’‘method_call : ID DOT ID LPAREN arguments RPAREN’’’
+p[0] = (‘method_call’, p[1], p[3], p[5])
+
+def p_array_access(p):
+‘’‘array_access : ID LBRACE expression RBRACE’’’
+p[0] = (‘array_access’, p[1], p[3])
+
+def p_function_call(p):
+‘’‘function_call : ID LPAREN arguments RPAREN’’’
+p[0] = (‘function_call’, p[1], p[3])
+
+def p_instantiation(p):
+‘’‘instantiation : NEW ID LPAREN arguments RPAREN’’’
+p[0] = (‘instantiation’, p[2], p[4])
+
+def p_arguments(p):
+‘’‘arguments : expression COMMA arguments
+| expression’’’
+if len(p) > 2:
+p[0] = [p[1]] + p[3]
+else:
+p[0] = [p[1]]
+
+Error handling
+
+def p_error(p):
+print(f”Syntax error at ‘{p.value}’”)
+
+parser = yacc.yacc()
+
+Example Chariot Code
+
+chariot_code = ‘’’
+Chariot Code:
+class ChariotComponent:
+public def SayHello():
+Console.WriteLine(“Hello from Chariot Code!”)
+    def PrintMessage(message: string):
+        Console.WriteLine(message)
+Python:
+def chariot_python():
+return “Chariot Code welcomes Python integration!”
+
+C#:
+public class ChariotCSharpComponent:
+public void SayHello():
+Console.WriteLine(“Hello from Chariot Code in C#!”);
+
+JavaScript:
+function chariotJavaScript():
+console.log(“Chariot Code embraces JavaScript!”);
+‘’’
+grammar ChariotLexer;
+
+// Lexer rules
+Class: 'class';
+Def: 'def';
+Function: 'function';
+Static: 'static';
+Void: 'void';
+Int: 'int';
+Return: 'return';
+Var: 'var';
+Const: 'const';
+Public: 'public';
+Identifier: [a-zA-Z_]\w*;
+Number: [0-9]+;
+String: '"' ~["]* '"';
+Comment: ('#' .*? '\n' | '\/\/' .*? '\n');
+Punctuation: ['{' '}' '(' ')' '[' ']' ',' ';'];
+Arrow: '=>';
+Operator: '==' | '=' | '+' | '-';
+Whitespace: [ \t\r\n]+ -> skip;
+
+grammar ChariotParser;
+
+options {
+  tokenVocab=ChariotLexer;
+}
+
+// Parser rules
+compilationUnit: classDeclaration functionDeclaration*;
+classDeclaration: Class Identifier '{' methodDeclaration '}';
+functionDeclaration: (Function | Def | Static | Void | Int | Return | Var | Const | Public) Identifier parameters? '{' statement* '}';
+methodDeclaration: (Function | Def | Static | Void | Int | Return | Var | Const | Public) Identifier parameters? '{' statement* '}';
+parameters: '(' parameter (',' parameter)* ')';
+parameter: Type Identifier;
+statement: assignmentStatement | returnStatement | expressionStatement;
+assignmentStatement: Identifier '=' expression ';';
+returnStatement: Return expression ';';
+expressionStatement: expression ';';
+expression: primaryExpression (Operator primaryExpression)*;
+primaryExpression: Identifier | Number | String | '(' expression ')';
+Add
+
+# The MIT License (MIT)
+# Copyright (c) 2021 Robert Einhorn
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+# Project      : Python Indent/Dedent handler for ANTLR4 grammars
+# 
+# Developed by : Robert Einhorn
+
+from typing import TextIO
+from antlr4 import InputStream, Lexer, Token
+from antlr4.Token import CommonToken
+import sys
+import re
+
+class PythonLexerBase(Lexer):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+        # A stack that keeps track of the indentation lengths
+        self._indent_lengths: list[int] = []
+
+        # A list where tokens are waiting to be loaded into the token stream
+        self._pending_tokens: list[CommonToken] = []
+
+        # last pending token types
+        self._previous_pending_token_type: int = 0
+        self._last_pending_token_type_for_default_channel: int = 0
+
+        # The amount of opened parentheses, square brackets or curly braces
+        self._opened: int = 0
+        # The amount of opened parentheses and square brackets in the current lexer mode
+        self._paren_or_bracket_opened: list[int] = []
+
+        self._was_space_indentation: bool = False
+        self._was_tab_indentation: bool = False
+        self._was_indentation_mixed_with_spaces_and_tabs: bool = False
+        self._INVALID_LENGTH: int = -1
+
+        self._cur_token: CommonToken = None # current (under processing) token
+        self._ffg_token: CommonToken = None # following (look ahead) token
+
+        self._ERR_TXT: str = " ERROR: "
+
+    def nextToken(self) -> CommonToken: # reading the input stream until a return EOF
+        self.check_next_token()
+        return self._pending_tokens.pop(0) # add the queued token to the token stream
+
+    def check_next_token(self):
+        if self._previous_pending_token_type != Token.EOF:
+            self.set_current_and_following_tokens()
+            if len(self._indent_lengths) == 0: # We're at the first token
+                self.handle_start_of_input()
+            match self._cur_token.type:
+                case self.LPAR | self.LSQB | self.LBRACE:
+                    self._opened += 1
+                    self.add_pending_token(self._cur_token)
+                case self.RPAR | self.RSQB | self.RBRACE:
+                    self._opened -= 1
+                    self.add_pending_token(self._cur_token)
+                case self.NEWLINE:
+                    self.handle_NEWLINE_token()
+                case self.STRING:
+                    self.handle_STRING_token()
+                case self.FSTRING_MIDDLE:
+                    self.handle_FSTRING_MIDDLE_token()
+                case self.ERROR_TOKEN:
+                    self.report_lexer_error("token recognition error at: '" + self._cur_token.text + "'")
+                    self.add_pending_token(self._cur_token)
+                case Token.EOF:
+                    self.handle_EOF_token()
+                case other:
+                    self.add_pending_token(self._cur_token)
+            self.handle_FORMAT_SPECIFICATION_MODE()
+
+    def set_current_and_following_tokens(self):
+        self._cur_token = super().nextToken() if self._ffg_token is None else \
+                          self._ffg_token
+
+        self.handle_fstring_lexer_modes()
+        
+        self._ffg_token = self._cur_token if self._cur_token.type == Token.EOF else \
+                          super().nextToken()
+
+    # initialize the _indent_lengths stack
+    # hide the leading NEWLINE token(s)
+    # if exists, find the first statement (not NEWLINE, not EOF token) that comes from the default channel
+    # insert a leading INDENT token if necessary
+    def handle_start_of_input(self):
+        # initialize the stack with a default 0 indentation length
+        self._indent_lengths.append(0) # this will never be popped off
+        while self._cur_token.type != Token.EOF:
+            if self._cur_token.channel == Token.DEFAULT_CHANNEL:
+                if self._cur_token.type == self.NEWLINE:
+                    # all the NEWLINE tokens must be ignored before the first statement
+                    self.hide_and_add_pending_token(self._cur_token)
+                else: # We're at the first statement
+                    self.insert_leading_indent_token()
+                    return # continue the processing of the current token with check_next_token()
+            else:
+                self.add_pending_token(self._cur_token) # it can be WS, EXPLICIT_LINE_JOINING or COMMENT token
+            self.set_current_and_following_tokens()
+        # continue the processing of the EOF token with check_next_token()
+
+    def insert_leading_indent_token(self):
+        if self._previous_pending_token_type == self.WS:
+            prev_token: CommonToken = self._pending_tokens[-1]  # WS token
+            if self.get_indentation_length(prev_token.text) != 0: # there is an "indentation" before the first statement
+                err_msg: str = "first statement indented"
+                self.report_lexer_error(err_msg)
+                # insert an INDENT token before the first statement to raise an 'unexpected indent' error later by the parser
+                self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._cur_token)
+
+    def handle_NEWLINE_token(self):
+        if self._opened > 0: # We're in an implicit line joining, ignore the current NEWLINE token
+            self.hide_and_add_pending_token(self._cur_token)
+        else:
+            nl_token: CommonToken = self._cur_token # save the current NEWLINE token
+            is_looking_ahead: bool = self._ffg_token.type == self.WS
+            if is_looking_ahead:
+                self.set_current_and_following_tokens() # set the two next tokens
+
+            match self._ffg_token.type:
+                case self.NEWLINE | self.COMMENT | self.TYPE_COMMENT:
+                    # We're before a blank line or a comment or a type comment
+                    self.hide_and_add_pending_token(nl_token)     # ignore the NEWLINE token
+                    if is_looking_ahead:
+                        self.add_pending_token(self._cur_token) # WS token
+                case other:
+                    self.add_pending_token(nl_token)
+                    if is_looking_ahead: # We're on a whitespace(s) followed by a statement
+                        indentation_length: int = 0 if self._ffg_token.type == Token.EOF else \
+                                                  self.get_indentation_length(self._cur_token.text)
+
+                        if indentation_length != self._INVALID_LENGTH:
+                            self.add_pending_token(self._cur_token) # WS token
+                            self.insert_indent_or_dedent_token(indentation_length) # may insert INDENT token or DEDENT token(s)
+                        else:
+                            self.report_error("inconsistent use of tabs and spaces in indentation")
+                    else: # We're at a newline followed by a statement (there is no whitespace before the statement)
+                        self.insert_indent_or_dedent_token(0) # may insert DEDENT token(s)
+
+    def insert_indent_or_dedent_token(self, cur_indent_length: int):
+        prev_indent_length: int = self._indent_lengths[-1]
+        if cur_indent_length > prev_indent_length:
+            self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+            self._indent_lengths.append(cur_indent_length)
+        else:
+            while cur_indent_length < prev_indent_length: # more than 1 DEDENT token may be inserted to the token stream
+                self._indent_lengths.pop()
+                prev_indent_length = self._indent_lengths[-1]
+                if cur_indent_length <= prev_indent_length:
+                    self.create_and_add_pending_token(self.DEDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+                else:
+                    self.report_error("inconsistent dedent")
+
+    def handle_STRING_token(self): # remove the \<newline> escape sequences from the string literal
+        # https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        line_joinFreeStringLiteral: str = re.sub(r"\\\r?\n", "", self._cur_token.text)
+        if len(self._cur_token.text) == len(line_joinFreeStringLiteral):
+            self.add_pending_token(self._cur_token)
+        else:
+            originalSTRINGtoken: CommonToken = self._cur_token.clone() # backup the original token
+            self._cur_token.text = line_joinFreeStringLiteral
+            self.add_pending_token(self._cur_token)              # add the modified token with inline string literal
+            self.hide_and_add_pending_token(originalSTRINGtoken) # add the original token to the hidden channel
+            # this inserted hidden token allows to restore the original string literal with the \<newline> escape sequences
+
+    def handle_FSTRING_MIDDLE_token(self): # replace the double braces '{{' or '}}' to single braces and hide the second braces
+            fs_mid: str = self._cur_token.text
+            fs_mid = fs_mid.replace("{{", "{_").replace("}}", "}_") # replace: {{ --> {_    }} --> }_
+            arrOfStr: list[str] = re.split(r"(?<=[{}])_", fs_mid) # split by {_  or  }_
+            s: str
+            for s in arrOfStr:
+                if s:
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, s, self._ffg_token)
+                    lastCharacter: str = s[-1:]
+                    if lastCharacter in "{}":
+                        self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.HIDDEN_CHANNEL, lastCharacter, self._ffg_token)
+
+    def handle_fstring_lexer_modes(self):
+        if self._modeStack:
+            match self._cur_token.type:
+                case self.LBRACE:
+                    self.pushMode(Lexer.DEFAULT_MODE)
+                    self._paren_or_bracket_opened.append(0)
+                case self.LPAR | self.LSQB:
+                    # https://peps.python.org/pep-0498/#lambdas-inside-expressions
+                    self._paren_or_bracket_opened[-1] += 1 # increment the last element
+                case self.RPAR | self.RSQB:
+                    self._paren_or_bracket_opened[-1] -= 1 # decrement the last element
+                case self.COLON:
+                    if self._paren_or_bracket_opened[-1] == 0:
+                        match self._modeStack[-1]: # check the previous lexer mode (the current is DEFAULT_MODE)
+                            case self.SINGLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_SINGLE_QUOTE_FSTRING_MODE \
+                               | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                            case self.DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                case self.RBRACE:
+                    match self._mode:
+                        case Lexer.DEFAULT_MODE \
+                           | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE \
+                           | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                            self.popMode()
+                            self._paren_or_bracket_opened.pop()
+                        case other:
+                            self.report_lexer_error("f-string: single '}' is not allowed")
+
+    def handle_FORMAT_SPECIFICATION_MODE(self):
+        if len(self._modeStack) != 0 \
+           and self._ffg_token.type == self.RBRACE:
+            
+            match self._cur_token.type:
+                case self.COLON | self.RBRACE:
+                    # insert an empty FSTRING_MIDDLE token instead of the missing format specification
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, "", self._ffg_token)
+
+    def insert_trailing_tokens(self):
+        match self._last_pending_token_type_for_default_channel:
+            case self.NEWLINE | self.DEDENT:
+                pass # no trailing NEWLINE token is needed
+            case other:
+                # insert an extra trailing NEWLINE token that serves as the end of the last statement
+                self.create_and_add_pending_token(self.NEWLINE, Token.DEFAULT_CHANNEL, None, self._ffg_token) # _ffg_token is EOF
+        self.insert_indent_or_dedent_token(0) # Now insert as much trailing DEDENT tokens as needed
+
+    def handle_EOF_token(self):
+        if self._last_pending_token_type_for_default_channel > 0:
+            # there was statement in the input (leading NEWLINE tokens are hidden)
+            self.insert_trailing_tokens()
+        self.add_pending_token(self._cur_token)
+
+    def hide_and_add_pending_token(self, token: CommonToken):
+        token.channel = Token.HIDDEN_CHANNEL
+        self.add_pending_token(token)
+
+    def create_and_add_pending_token(self, type: int, channel: int, text: str, base_token: CommonToken):
+        token: CommonToken = base_token.clone()
+        token.type  = type
+        token.channel = channel
+        token.stop = base_token.start - 1
+        token.text = "<" + self.symbolicNames[type] + ">" if text is None else \
+                     text
+
+        self.add_pending_token(token)
+
+    def add_pending_token(self, token: CommonToken):
+        # save the last pending token type because the _pending_tokens list can be empty by the nextToken()
+        self._previous_pending_token_type = token.type
+        if token.channel == Token.DEFAULT_CHANNEL:
+            self._last_pending_token_type_for_default_channel = self._previous_pending_token_type
+        self._pending_tokens.append(token)
+
+    def get_indentation_length(self, textWS: str) -> int: # the textWS may contain spaces, tabs or formfeeds
+        TAB_LENGTH: int = 8 # the standard number of spaces to replace a tab to spaces
+        length: int = 0
+        ch: str
+        for ch in textWS:
+            match ch:
+                case ' ':
+                    self._was_space_indentation = True
+                    length += 1
+                case '\t':
+                    self._was_tab_indentation = True
+                    length += TAB_LENGTH - (length % TAB_LENGTH)
+                case '\f': # formfeed
+                    length = 0
+
+        if self._was_tab_indentation and self._was_space_indentation:
+            if not self._was_indentation_mixed_with_spaces_and_tabs:
+                self._was_indentation_mixed_with_spaces_and_tabs = True
+                return self._INVALID_LENGTH # only for the first inconsistent indent
+        return length
+
+    def report_lexer_error(self, err_msg):
+        self.getErrorListenerDispatch().syntaxError(self, self._cur_token, self._cur_token.line, self._cur_token.column, self._ERR_TXT + err_msg, None)
+
+    def report_error(self, err_msg):
+        self.report_lexer_error(err_msg)
+
+        # the ERROR_TOKEN will raise an error in the parser
+        self.create_and_add_pending_token(self.ERROR_TOKEN, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._ffg_token)
+
+##
+## Project      : a helper class to implement specific PEG grammar expressions in an ANTLR4 grammar
+##
+## Developed by : Robert Einhorn
+##
+
+## Related PEG grammar expressions:
+## &e
+## https://peps.python.org/pep-0617/#e-3
+##
+## !e
+## https://peps.python.org/pep-0617/#e-4
+
+from antlr4 import InputStream, Parser
+from typing import TextIO
+import sys
+
+class PythonParserBase(Parser):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+    def isEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return self.getCurrentToken().text == tokenText
+
+    def isnotEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return not self.isEqualCurrentTokenText(tokenText) # for compatibility with the '!' logical operator in other languages
+/*
+The MIT License (MIT)
+Copyright (c) 2021 Robert Einhorn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+ */
+
+/*
+ *
+ * Project      : Python Indent/Dedent handler for ANTLR4 grammars
+ *
+ * Developed by : Robert Einhorn, robert.einhorn.hu@gmail.com
+ *
+ */
+
+import java.util.*;
+
+import org.antlr.v4.runtime.*;
+
+public abstract class PythonLexerBase extends Lexer {
+    // A stack that keeps track of the indentation lengths
+    private LinkedList<Integer> _indentLengths = new LinkedList<>();
+    // A linked list where tokens are waiting to be loaded into the token stream
+    private LinkedList<Token> _pendingTokens = new LinkedList<>();
+
+    // last pending token types
+    private int _previousPendingTokenType = 0;
+    private int _lastPendingTokenTypeForDefaultChannel = 0;
+
+    // The amount of opened parentheses, square brackets or curly braces
+    private int _opened = 0;
+    //  The amount of opened parentheses and square brackets in the current lexer mode
+    private final LinkedList<Integer> _paren_or_bracketOpened = new LinkedList<>();
+
+    private boolean _wasSpaceIndentation = false;
+    private boolean _wasTabIndentation = false;
+    private boolean _wasIndentationMixedWithSpacesAndTabs = false;
+    private final int _INVALID_LENGTH = -1;
+
+    private CommonToken _curToken; // current (under processing) token
+    private Token _ffgToken; // following (look ahead) token
+
+    private final String _ERR_TXT = " ERROR: ";
+
+    protected PythonLexerBase(CharStream input) {
+        super(input);
+    }
+
+    @Override
+    public Token nextToken() { // reading the input stream until a return EOF
+        checkNextToken();
+        return _pendingTokens.pollFirst(); // add the queued token to the token stream
+    }
+
+    private void checkNextToken() {
+        if (_previousPendingTokenType != EOF) {
+            setCurrentAndFollowingTokens();
+            if (_indentLengths.size() == 0) { // We're at the first token
+                handleStartOfInput();
+            }
+
+            switch (_curToken.getType()) {
+                case PythonLexer.LPAR:
+                case PythonLexer.LSQB:
+                case PythonLexer.LBRACE:
+                    _opened++;
+                    addPendingToken(_curToken);
+                    break;
+                case PythonLexer.RPAR:
+                case PythonLexer.RSQB:
+                case PythonLexer.RBRACE:
+                    _opened--;
+                    addPendingToken(_curToken);
+                    break;
+                case PythonLexer.NEWLINE:
+                    handleNEWLINEtoken();
+                    break;
+                case PythonLexer.STRING:
+                    handleSTRINGtoken();
+                    break;
+                case PythonLexer.FSTRING_MIDDLE:
+                    handleFSTRING_MIDDLE_token();
+                    break;
+                case PythonLexer.ERROR_TOKEN:
+                    reportLexerError("token recognition error at: '" + _curToken.getText() + "'");
+                    addPendingToken(_curToken);
+                    break;
+                case EOF:
+                    handleEOFtoken();
+                    break;
+                default:
+                    addPendingToken(_curToken);
+            }
+            handleFORMAT_SPECIFICATION_MODE();
+        }
+    }
+
+    private void setCurrentAndFollowingTokens() {
+        _curToken = _ffgToken == null ?
+                    new CommonToken(super.nextToken()) :
+                    new CommonToken(_ffgToken);
+
+        handleFStringLexerModes();
+
+        _ffgToken = _curToken.getType() == EOF ?
+                    _curToken :
+                    super.nextToken();
+    }
+
+    // initialize the _indentLengths stack
+    // hide the leading NEWLINE token(s)
+    // if exists, find the first statement (not NEWLINE, not EOF token) that comes from the default channel
+    // insert a leading INDENT token if necessary
+    private void handleStartOfInput() {
+        // initialize the stack with a default 0 indentation length
+        _indentLengths.addLast(0); // this will never be popped off
+        while (_curToken.getType() != EOF) {
+            if (_curToken.getChannel() == Token.DEFAULT_CHANNEL) {
+                if (_curToken.getType() == PythonLexer.NEWLINE) {
+                    // all the NEWLINE tokens must be ignored before the first statement
+                    hideAndAddPendingToken(_curToken);
+                } else { // We're at the first statement
+                    insertLeadingIndentToken();
+                    return; // continue the processing of the current token with checkNextToken()
+                }
+            } else {
+                addPendingToken(_curToken); // it can be WS, EXPLICIT_LINE_JOINING or COMMENT token
+            }
+            setCurrentAndFollowingTokens();
+        } // continue the processing of the EOF token with checkNextToken()
+    }
+
+    private void insertLeadingIndentToken() {
+        if (_previousPendingTokenType == PythonLexer.WS) {
+            Token prevToken = _pendingTokens.peekLast(); // WS token
+            if (getIndentationLength(prevToken.getText()) != 0) { // there is an "indentation" before the first statement
+                final String errMsg = "first statement indented";
+                reportLexerError(errMsg);
+                // insert an INDENT token before the first statement to raise an 'unexpected indent' error later by the parser
+                createAndAddPendingToken(PythonLexer.INDENT, Token.DEFAULT_CHANNEL, _ERR_TXT + errMsg, _curToken);
+            }
+        }
+    }
+
+    private void handleNEWLINEtoken() {
+        if (_opened > 0) { // We're in an implicit line joining, ignore the current NEWLINE token
+            hideAndAddPendingToken(_curToken);
+        } else {
+            CommonToken nlToken = _curToken; // save the current NEWLINE token
+            final boolean isLookingAhead = _ffgToken.getType() == PythonLexer.WS;
+            if (isLookingAhead) {
+                setCurrentAndFollowingTokens(); // set the two next tokens
+            }
+
+            switch (_ffgToken.getType()) {
+                case PythonLexer.NEWLINE:      // We're before a blank line
+                case PythonLexer.COMMENT:      // We're before a comment
+                case PythonLexer.TYPE_COMMENT: // We're before a type comment
+                    hideAndAddPendingToken(nlToken);
+                    if (isLookingAhead) {
+                        addPendingToken(_curToken);  // WS token
+                    }
+                    break;
+                default:
+                    addPendingToken(nlToken);
+                    if (isLookingAhead) { // We're on a whitespace(s) followed by a statement
+                        final int indentationLength = _ffgToken.getType() == EOF ?
+                                                      0 :
+                                                      getIndentationLength(_curToken.getText());
+
+                        if (indentationLength != _INVALID_LENGTH) {
+                            addPendingToken(_curToken); // WS token
+                            insertIndentOrDedentToken(indentationLength); // may insert INDENT token or DEDENT token(s)
+                        } else {
+                            reportError("inconsistent use of tabs and spaces in indentation");
+                        }
+                    } else { // We're at a newline followed by a statement (there is no whitespace before the statement)
+                        insertIndentOrDedentToken(0); // may insert DEDENT token(s)
+                    }
+            }
+        }
+    }
+
+    private void insertIndentOrDedentToken(final int curIndentLength) {
+        int prevIndentLength = _indentLengths.peekLast();
+        if (curIndentLength > prevIndentLength) {
+            createAndAddPendingToken(PythonLexer.INDENT, Token.DEFAULT_CHANNEL, null, _ffgToken);
+            _indentLengths.addLast(curIndentLength);
+        } else {
+            while (curIndentLength < prevIndentLength) { // more than 1 DEDENT token may be inserted to the token stream
+                _indentLengths.removeLast();
+                prevIndentLength = _indentLengths.peekLast();
+                if (curIndentLength <= prevIndentLength) {
+                    createAndAddPendingToken(PythonLexer.DEDENT, Token.DEFAULT_CHANNEL, null, _ffgToken);
+                } else {
+                    reportError("inconsistent dedent");
+                }
+            }
+        }
+    }
+
+    private void handleSTRINGtoken() { // remove the \<newline> escape sequences from the string literal
+        final String line_joinFreeStringLiteral = _curToken.getText().replaceAll("\\\\\\r?\\n", "");
+        if (_curToken.getText().length() == line_joinFreeStringLiteral.length()) {
+            addPendingToken(_curToken);
+        } else {
+            CommonToken originalSTRINGtoken = new CommonToken(_curToken); // backup the original token
+            _curToken.setText(line_joinFreeStringLiteral);
+            addPendingToken(_curToken);                  // add the modified token with inline string literal
+            hideAndAddPendingToken(originalSTRINGtoken); // add the original token to the hidden channel
+            // this inserted hidden token allows to restore the original string literal with the \<newline> escape sequences
+        }
+    }
+
+    private void handleFSTRING_MIDDLE_token() { // replace the double braces '{{' or '}}' to single braces and hide the second braces
+        String fsMid = _curToken.getText();
+        fsMid = fsMid.replaceAll("\\{\\{", "{_").replaceAll("\\}\\}", "}_"); // replace: {{ --> {_    }} --> }_
+        String[] arrOfStr = fsMid.split("(?<=[{}])_"); // split by {_  or  }_
+        for (String s : arrOfStr) {
+            if (!s.isEmpty()) {
+                createAndAddPendingToken(PythonLexer.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, s, _ffgToken);
+                String lastCharacter = s.substring(s.length() - 1);
+                if ("{}".contains(lastCharacter)) {
+                    createAndAddPendingToken(PythonLexer.FSTRING_MIDDLE, Token.HIDDEN_CHANNEL, lastCharacter, _ffgToken);
+                    // this inserted hidden token allows to restore the original f-string literal with the double braces
+                }
+            }
+        }
+    }
+
+    private void handleFStringLexerModes() { // https://peps.python.org/pep-0498/#specification
+        if (!_modeStack.isEmpty()) {
+            switch (_curToken.getType()) {
+                case PythonLexer.LBRACE:
+                    pushMode(PythonLexer.DEFAULT_MODE);
+                    _paren_or_bracketOpened.addLast(0);
+                    break;
+                case PythonLexer.LPAR:
+                case PythonLexer.LSQB:
+                    // https://peps.python.org/pep-0498/#lambdas-inside-expressions
+                    _paren_or_bracketOpened.addLast(_paren_or_bracketOpened.removeLast() + 1); // increment the last element
+                    break;
+                case PythonLexer.RPAR:
+                case PythonLexer.RSQB:
+                    _paren_or_bracketOpened.addLast(_paren_or_bracketOpened.removeLast() - 1); // decrement the last element
+                    break;
+                case PythonLexer.COLON: // colon can only come from DEFAULT_MODE
+                    if (_paren_or_bracketOpened.peekLast() == 0) {
+                        switch (_modeStack.peek()) { // check the previous lexer mode (the current is DEFAULT_MODE)
+                            case PythonLexer.SINGLE_QUOTE_FSTRING_MODE:
+                            case PythonLexer.LONG_SINGLE_QUOTE_FSTRING_MODE:
+                            case PythonLexer.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+                                mode(PythonLexer.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE); // continue in format spec. mode
+                                break;
+                            case PythonLexer.DOUBLE_QUOTE_FSTRING_MODE:
+                            case PythonLexer.LONG_DOUBLE_QUOTE_FSTRING_MODE:
+                            case PythonLexer.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+                                mode(PythonLexer.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE); // continue in format spec. mode
+                                break;
+                        }
+                    }
+                    break;
+                case PythonLexer.RBRACE:
+                    switch (_mode) {
+                        case PythonLexer.DEFAULT_MODE:
+                        case PythonLexer.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+                        case PythonLexer.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+                            popMode();
+                            _paren_or_bracketOpened.removeLast();
+                            break;
+                        default:
+                            reportLexerError("f-string: single '}' is not allowed");
+                    }
+                    break;
+            }
+        }
+    }
+
+    private void handleFORMAT_SPECIFICATION_MODE() {
+        if (!_modeStack.isEmpty() &&
+            _ffgToken.getType() == PythonLexer.RBRACE) {
+
+            switch (_curToken.getType()) {
+                case PythonLexer.COLON:
+                case PythonLexer.RBRACE:
+                    // insert an empty FSTRING_MIDDLE token instead of the missing format specification
+                    createAndAddPendingToken(PythonLexer.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, "", _ffgToken);
+                    break;
+            }
+        }
+    }
+
+    private void insertTrailingTokens() {
+        switch (_lastPendingTokenTypeForDefaultChannel) {
+            case PythonLexer.NEWLINE:
+            case PythonLexer.DEDENT:
+                break; // no trailing NEWLINE token is needed
+            default:
+                // insert an extra trailing NEWLINE token that serves as the end of the last statement
+                createAndAddPendingToken(PythonLexer.NEWLINE, Token.DEFAULT_CHANNEL, null, _ffgToken); // _ffgToken is EOF
+        }
+        insertIndentOrDedentToken(0); // Now insert as much trailing DEDENT tokens as needed
+    }
+
+    private void handleEOFtoken() {
+        if (_lastPendingTokenTypeForDefaultChannel > 0) {
+            // there was statement in the input (leading NEWLINE tokens are hidden)
+            insertTrailingTokens();
+        }
+        addPendingToken(_curToken);
+    }
+
+    private void hideAndAddPendingToken(CommonToken token) {
+        token.setChannel(Token.HIDDEN_CHANNEL);
+        addPendingToken(token);
+    }
+
+    private void createAndAddPendingToken(final int type, final int channel, final String text, Token baseToken) {
+        CommonToken token = new CommonToken(baseToken);
+        token.setType(type);
+        token.setChannel(channel);
+        token.setStopIndex(baseToken.getStartIndex() - 1);
+        token.setText(text == null
+                      ? "<" + getVocabulary().getSymbolicName(type) + ">"
+                      : text);
+
+        addPendingToken(token);
+    }
+
+    private void addPendingToken(Token token) {
+        // save the last pending token type because the _pendingTokens linked list can be empty by the nextToken()
+        _previousPendingTokenType = token.getType();
+        if (token.getChannel() == Token.DEFAULT_CHANNEL) {
+            _lastPendingTokenTypeForDefaultChannel = _previousPendingTokenType;
+        }
+        _pendingTokens.addLast(token);
+    }
+
+    private int getIndentationLength(final String textWS) { // the textWS may contain spaces, tabs or formfeeds
+        final int TAB_LENGTH = 8; // the standard number of spaces to replace a tab to spaces
+        int length = 0;
+        for (char ch : textWS.toCharArray()) {
+            switch (ch) {
+                case ' ':
+                    _wasSpaceIndentation = true;
+                    length += 1;
+                    break;
+                case '\t':
+                    _wasTabIndentation = true;
+                    length += TAB_LENGTH - (length % TAB_LENGTH);
+                    break;
+                case '\f': // formfeed
+                    length = 0;
+                    break;
+            }
+        }
+
+        if (_wasTabIndentation && _wasSpaceIndentation) {
+            if (!_wasIndentationMixedWithSpacesAndTabs) {
+                _wasIndentationMixedWithSpacesAndTabs = true;
+                return _INVALID_LENGTH; // only for the first inconsistent indent
+            }
+        }
+        return length;
+    }
+
+    private void reportLexerError(final String errMsg) {
+        getErrorListenerDispatch().syntaxError(this, _curToken, _curToken.getLine(), _curToken.getCharPositionInLine(), _ERR_TXT + errMsg, null);
+    }
+
+    private void reportError(final String errMsg) {
+        reportLexerError(errMsg);
+
+        // the ERROR_TOKEN will raise an error in the parser
+        createAndAddPendingToken(PythonLexer.ERROR_TOKEN, Token.DEFAULT_CHANNEL, _ERR_TXT + errMsg, _ffgToken);
+    }
+}
+/*
+ * Project      : a helper class to implement specific PEG grammar expressions in an ANTLR4 grammar
+ *
+ * Developed by : Robert Einhorn
+ */
+
+// Related PEG grammar expressions:
+// &e
+// https://peps.python.org/pep-0617/#e-3
+//
+// !e
+// https://peps.python.org/pep-0617/#e-4
+
+import org.antlr.v4.runtime.*;
+
+public abstract class PythonParserBase extends Parser {
+    protected PythonParserBase(TokenStream input) {
+        super(input);
+    }
+
+    public PythonParserBase self = this; // for compatibility with PythonParserBase.py
+
+    // https://docs.python.org/3/reference/lexical_analysis.html#soft-keywords
+    public boolean isEqualCurrentTokenText(String tokenText) {
+        return getCurrentToken().getText().equals(tokenText);
+    }
+
+    public boolean isnotEqualCurrentTokenText(String tokenText) {
+        return !isEqualCurrentTokenText(tokenText); // for compatibility with the Python 'not' logical operator
+    }
+}
+# The MIT License (MIT)
+# Copyright (c) 2021 Robert Einhorn
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+# Project      : Python Indent/Dedent handler for ANTLR4 grammars
+# 
+# Developed by : Robert Einhorn
+
+from typing import TextIO
+from antlr4 import InputStream, Lexer, Token
+from antlr4.Token import CommonToken
+import sys
+import re
+
+class PythonLexerBase(Lexer):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+        # A stack that keeps track of the indentation lengths
+        self._indent_lengths: list[int] = []
+
+        # A list where tokens are waiting to be loaded into the token stream
+        self._pending_tokens: list[CommonToken] = []
+
+        # last pending token types
+        self._previous_pending_token_type: int = 0
+        self._last_pending_token_type_for_default_channel: int = 0
+
+        # The amount of opened parentheses, square brackets or curly braces
+        self._opened: int = 0
+        # The amount of opened parentheses and square brackets in the current lexer mode
+        self._paren_or_bracket_opened: list[int] = []
+
+        self._was_space_indentation: bool = False
+        self._was_tab_indentation: bool = False
+        self._was_indentation_mixed_with_spaces_and_tabs: bool = False
+        self._INVALID_LENGTH: int = -1
+
+        self._cur_token: CommonToken = None # current (under processing) token
+        self._ffg_token: CommonToken = None # following (look ahead) token
+
+        self._ERR_TXT: str = " ERROR: "
+
+    def nextToken(self) -> CommonToken: # reading the input stream until a return EOF
+        self.check_next_token()
+        return self._pending_tokens.pop(0) # add the queued token to the token stream
+
+    def check_next_token(self):
+        if self._previous_pending_token_type != Token.EOF:
+            self.set_current_and_following_tokens()
+            if len(self._indent_lengths) == 0: # We're at the first token
+                self.handle_start_of_input()
+            match self._cur_token.type:
+                case self.LPAR | self.LSQB | self.LBRACE:
+                    self._opened += 1
+                    self.add_pending_token(self._cur_token)
+                case self.RPAR | self.RSQB | self.RBRACE:
+                    self._opened -= 1
+                    self.add_pending_token(self._cur_token)
+                case self.NEWLINE:
+                    self.handle_NEWLINE_token()
+                case self.STRING:
+                    self.handle_STRING_token()
+                case self.FSTRING_MIDDLE:
+                    self.handle_FSTRING_MIDDLE_token()
+                case self.ERROR_TOKEN:
+                    self.report_lexer_error("token recognition error at: '" + self._cur_token.text + "'")
+                    self.add_pending_token(self._cur_token)
+                case Token.EOF:
+                    self.handle_EOF_token()
+                case other:
+                    self.add_pending_token(self._cur_token)
+            self.handle_FORMAT_SPECIFICATION_MODE()
+
+    def set_current_and_following_tokens(self):
+        self._cur_token = super().nextToken() if self._ffg_token is None else \
+                          self._ffg_token
+
+        self.handle_fstring_lexer_modes()
+        
+        self._ffg_token = self._cur_token if self._cur_token.type == Token.EOF else \
+                          super().nextToken()
+
+    # initialize the _indent_lengths stack
+    # hide the leading NEWLINE token(s)
+    # if exists, find the first statement (not NEWLINE, not EOF token) that comes from the default channel
+    # insert a leading INDENT token if necessary
+    def handle_start_of_input(self):
+        # initialize the stack with a default 0 indentation length
+        self._indent_lengths.append(0) # this will never be popped off
+        while self._cur_token.type != Token.EOF:
+            if self._cur_token.channel == Token.DEFAULT_CHANNEL:
+                if self._cur_token.type == self.NEWLINE:
+                    # all the NEWLINE tokens must be ignored before the first statement
+                    self.hide_and_add_pending_token(self._cur_token)
+                else: # We're at the first statement
+                    self.insert_leading_indent_token()
+                    return # continue the processing of the current token with check_next_token()
+            else:
+                self.add_pending_token(self._cur_token) # it can be WS, EXPLICIT_LINE_JOINING or COMMENT token
+            self.set_current_and_following_tokens()
+        # continue the processing of the EOF token with check_next_token()
+
+    def insert_leading_indent_token(self):
+        if self._previous_pending_token_type == self.WS:
+            prev_token: CommonToken = self._pending_tokens[-1]  # WS token
+            if self.get_indentation_length(prev_token.text) != 0: # there is an "indentation" before the first statement
+                err_msg: str = "first statement indented"
+                self.report_lexer_error(err_msg)
+                # insert an INDENT token before the first statement to raise an 'unexpected indent' error later by the parser
+                self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._cur_token)
+
+    def handle_NEWLINE_token(self):
+        if self._opened > 0: # We're in an implicit line joining, ignore the current NEWLINE token
+            self.hide_and_add_pending_token(self._cur_token)
+        else:
+            nl_token: CommonToken = self._cur_token # save the current NEWLINE token
+            is_looking_ahead: bool = self._ffg_token.type == self.WS
+            if is_looking_ahead:
+                self.set_current_and_following_tokens() # set the two next tokens
+
+            match self._ffg_token.type:
+                case self.NEWLINE | self.COMMENT | self.TYPE_COMMENT:
+                    # We're before a blank line or a comment or a type comment
+                    self.hide_and_add_pending_token(nl_token)     # ignore the NEWLINE token
+                    if is_looking_ahead:
+                        self.add_pending_token(self._cur_token) # WS token
+                case other:
+                    self.add_pending_token(nl_token)
+                    if is_looking_ahead: # We're on a whitespace(s) followed by a statement
+                        indentation_length: int = 0 if self._ffg_token.type == Token.EOF else \
+                                                  self.get_indentation_length(self._cur_token.text)
+
+                        if indentation_length != self._INVALID_LENGTH:
+                            self.add_pending_token(self._cur_token) # WS token
+                            self.insert_indent_or_dedent_token(indentation_length) # may insert INDENT token or DEDENT token(s)
+                        else:
+                            self.report_error("inconsistent use of tabs and spaces in indentation")
+                    else: # We're at a newline followed by a statement (there is no whitespace before the statement)
+                        self.insert_indent_or_dedent_token(0) # may insert DEDENT token(s)
+
+    def insert_indent_or_dedent_token(self, cur_indent_length: int):
+        prev_indent_length: int = self._indent_lengths[-1]
+        if cur_indent_length > prev_indent_length:
+            self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+            self._indent_lengths.append(cur_indent_length)
+        else:
+            while cur_indent_length < prev_indent_length: # more than 1 DEDENT token may be inserted to the token stream
+                self._indent_lengths.pop()
+                prev_indent_length = self._indent_lengths[-1]
+                if cur_indent_length <= prev_indent_length:
+                    self.create_and_add_pending_token(self.DEDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+                else:
+                    self.report_error("inconsistent dedent")
+
+    def handle_STRING_token(self): # remove the \<newline> escape sequences from the string literal
+        # https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        line_joinFreeStringLiteral: str = re.sub(r"\\\r?\n", "", self._cur_token.text)
+        if len(self._cur_token.text) == len(line_joinFreeStringLiteral):
+            self.add_pending_token(self._cur_token)
+        else:
+            originalSTRINGtoken: CommonToken = self._cur_token.clone() # backup the original token
+            self._cur_token.text = line_joinFreeStringLiteral
+            self.add_pending_token(self._cur_token)              # add the modified token with inline string literal
+            self.hide_and_add_pending_token(originalSTRINGtoken) # add the original token to the hidden channel
+            # this inserted hidden token allows to restore the original string literal with the \<newline> escape sequences
+
+    def handle_FSTRING_MIDDLE_token(self): # replace the double braces '{{' or '}}' to single braces and hide the second braces
+            fs_mid: str = self._cur_token.text
+            fs_mid = fs_mid.replace("{{", "{_").replace("}}", "}_") # replace: {{ --> {_    }} --> }_
+            arrOfStr: list[str] = re.split(r"(?<=[{}])_", fs_mid) # split by {_  or  }_
+            s: str
+            for s in arrOfStr:
+                if s:
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, s, self._ffg_token)
+                    lastCharacter: str = s[-1:]
+                    if lastCharacter in "{}":
+                        self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.HIDDEN_CHANNEL, lastCharacter, self._ffg_token)
+
+    def handle_fstring_lexer_modes(self):
+        if self._modeStack:
+            match self._cur_token.type:
+                case self.LBRACE:
+                    self.pushMode(Lexer.DEFAULT_MODE)
+                    self._paren_or_bracket_opened.append(0)
+                case self.LPAR | self.LSQB:
+                    # https://peps.python.org/pep-0498/#lambdas-inside-expressions
+                    self._paren_or_bracket_opened[-1] += 1 # increment the last element
+                case self.RPAR | self.RSQB:
+                    self._paren_or_bracket_opened[-1] -= 1 # decrement the last element
+                case self.COLON:
+                    if self._paren_or_bracket_opened[-1] == 0:
+                        match self._modeStack[-1]: # check the previous lexer mode (the current is DEFAULT_MODE)
+                            case self.SINGLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_SINGLE_QUOTE_FSTRING_MODE \
+                               | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                            case self.DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                case self.RBRACE:
+                    match self._mode:
+                        case Lexer.DEFAULT_MODE \
+                           | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE \
+                           | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                            self.popMode()
+                            self._paren_or_bracket_opened.pop()
+                        case other:
+                            self.report_lexer_error("f-string: single '}' is not allowed")
+
+    def handle_FORMAT_SPECIFICATION_MODE(self):
+        if len(self._modeStack) != 0 \
+           and self._ffg_token.type == self.RBRACE:
+            
+            match self._cur_token.type:
+                case self.COLON | self.RBRACE:
+                    # insert an empty FSTRING_MIDDLE token instead of the missing format specification
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, "", self._ffg_token)
+
+    def insert_trailing_tokens(self):
+        match self._last_pending_token_type_for_default_channel:
+            case self.NEWLINE | self.DEDENT:
+                pass # no trailing NEWLINE token is needed
+            case other:
+                # insert an extra trailing NEWLINE token that serves as the end of the last statement
+                self.create_and_add_pending_token(self.NEWLINE, Token.DEFAULT_CHANNEL, None, self._ffg_token) # _ffg_token is EOF
+        self.insert_indent_or_dedent_token(0) # Now insert as much trailing DEDENT tokens as needed
+
+    def handle_EOF_token(self):
+        if self._last_pending_token_type_for_default_channel > 0:
+            # there was statement in the input (leading NEWLINE tokens are hidden)
+            self.insert_trailing_tokens()
+        self.add_pending_token(self._cur_token)
+
+    def hide_and_add_pending_token(self, token: CommonToken):
+        token.channel = Token.HIDDEN_CHANNEL
+        self.add_pending_token(token)
+
+    def create_and_add_pending_token(self, type: int, channel: int, text: str, base_token: CommonToken):
+        token: CommonToken = base_token.clone()
+        token.type  = type
+        token.channel = channel
+        token.stop = base_token.start - 1
+        token.text = "<" + self.symbolicNames[type] + ">" if text is None else \
+                     text
+
+        self.add_pending_token(token)
+
+    def add_pending_token(self, token: CommonToken):
+        # save the last pending token type because the _pending_tokens list can be empty by the nextToken()
+        self._previous_pending_token_type = token.type
+        if token.channel == Token.DEFAULT_CHANNEL:
+            self._last_pending_token_type_for_default_channel = self._previous_pending_token_type
+        self._pending_tokens.append(token)
+
+    def get_indentation_length(self, textWS: str) -> int: # the textWS may contain spaces, tabs or formfeeds
+        TAB_LENGTH: int = 8 # the standard number of spaces to replace a tab to spaces
+        length: int = 0
+        ch: str
+        for ch in textWS:
+            match ch:
+                case ' ':
+                    self._was_space_indentation = True
+                    length += 1
+                case '\t':
+                    self._was_tab_indentation = True
+                    length += TAB_LENGTH - (length % TAB_LENGTH)
+                case '\f': # formfeed
+                    length = 0
+
+        if self._was_tab_indentation and self._was_space_indentation:
+            if not self._was_indentation_mixed_with_spaces_and_tabs:
+                self._was_indentation_mixed_with_spaces_and_tabs = True
+                return self._INVALID_LENGTH # only for the first inconsistent indent
+        return length
+
+    def report_lexer_error(self, err_msg):
+        self.getErrorListenerDispatch().syntaxError(self, self._cur_token, self._cur_token.line, self._cur_token.column, self._ERR_TXT + err_msg, None)
+
+    def report_error(self, err_msg):
+        self.report_lexer_error(err_msg)
+
+        # the ERROR_TOKEN will raise an error in the parser
+        self.create_and_add_pending_token(self.ERROR_TOKEN, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._ffg_token)
+
+##
+## Project      : a helper class to implement specific PEG grammar expressions in an ANTLR4 grammar
+##
+## Developed by : Robert Einhorn
+##
+
+## Related PEG grammar expressions:
+## &e
+## https://peps.python.org/pep-0617/#e-3
+##
+## !e
+## https://peps.python.org/pep-0617/#e-4
+
+from antlr4 import InputStream, Parser
+from typing import TextIO
+import sys
+
+class PythonParserBase(Parser):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+    def isEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return self.getCurrentToken().text == tokenText
+
+    def isnotEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return not self.isEqualCurrentTokenText(tokenText) # for compatibility with the '!' logical operator in other languages
+
+# The MIT License (MIT)
+# Copyright (c) 2021 Robert Einhorn
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+# Project      : Python Indent/Dedent handler for ANTLR4 grammars
+# 
+# Developed by : Robert Einhorn
+
+from typing import TextIO
+from antlr4 import InputStream, Lexer, Token
+from antlr4.Token import CommonToken
+import sys
+import re
+
+class PythonLexerBase(Lexer):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+        # A stack that keeps track of the indentation lengths
+        self._indent_lengths: list[int] = []
+
+        # A list where tokens are waiting to be loaded into the token stream
+        self._pending_tokens: list[CommonToken] = []
+
+        # last pending token types
+        self._previous_pending_token_type: int = 0
+        self._last_pending_token_type_for_default_channel: int = 0
+
+        # The amount of opened parentheses, square brackets or curly braces
+        self._opened: int = 0
+        # The amount of opened parentheses and square brackets in the current lexer mode
+        self._paren_or_bracket_opened: list[int] = []
+
+        self._was_space_indentation: bool = False
+        self._was_tab_indentation: bool = False
+        self._was_indentation_mixed_with_spaces_and_tabs: bool = False
+        self._INVALID_LENGTH: int = -1
+
+        self._cur_token: CommonToken = None # current (under processing) token
+        self._ffg_token: CommonToken = None # following (look ahead) token
+
+        self._ERR_TXT: str = " ERROR: "
+
+    def nextToken(self) -> CommonToken: # reading the input stream until a return EOF
+        self.check_next_token()
+        return self._pending_tokens.pop(0) # add the queued token to the token stream
+
+    def check_next_token(self):
+        if self._previous_pending_token_type != Token.EOF:
+            self.set_current_and_following_tokens()
+            if len(self._indent_lengths) == 0: # We're at the first token
+                self.handle_start_of_input()
+            match self._cur_token.type:
+                case self.LPAR | self.LSQB | self.LBRACE:
+                    self._opened += 1
+                    self.add_pending_token(self._cur_token)
+                case self.RPAR | self.RSQB | self.RBRACE:
+                    self._opened -= 1
+                    self.add_pending_token(self._cur_token)
+                case self.NEWLINE:
+                    self.handle_NEWLINE_token()
+                case self.STRING:
+                    self.handle_STRING_token()
+                case self.FSTRING_MIDDLE:
+                    self.handle_FSTRING_MIDDLE_token()
+                case self.ERROR_TOKEN:
+                    self.report_lexer_error("token recognition error at: '" + self._cur_token.text + "'")
+                    self.add_pending_token(self._cur_token)
+                case Token.EOF:
+                    self.handle_EOF_token()
+                case other:
+                    self.add_pending_token(self._cur_token)
+            self.handle_FORMAT_SPECIFICATION_MODE()
+
+    def set_current_and_following_tokens(self):
+        self._cur_token = super().nextToken() if self._ffg_token is None else \
+                          self._ffg_token
+
+        self.handle_fstring_lexer_modes()
+        
+        self._ffg_token = self._cur_token if self._cur_token.type == Token.EOF else \
+                          super().nextToken()
+
+    # initialize the _indent_lengths stack
+    # hide the leading NEWLINE token(s)
+    # if exists, find the first statement (not NEWLINE, not EOF token) that comes from the default channel
+    # insert a leading INDENT token if necessary
+    def handle_start_of_input(self):
+        # initialize the stack with a default 0 indentation length
+        self._indent_lengths.append(0) # this will never be popped off
+        while self._cur_token.type != Token.EOF:
+            if self._cur_token.channel == Token.DEFAULT_CHANNEL:
+                if self._cur_token.type == self.NEWLINE:
+                    # all the NEWLINE tokens must be ignored before the first statement
+                    self.hide_and_add_pending_token(self._cur_token)
+                else: # We're at the first statement
+                    self.insert_leading_indent_token()
+                    return # continue the processing of the current token with check_next_token()
+            else:
+                self.add_pending_token(self._cur_token) # it can be WS, EXPLICIT_LINE_JOINING or COMMENT token
+            self.set_current_and_following_tokens()
+        # continue the processing of the EOF token with check_next_token()
+
+    def insert_leading_indent_token(self):
+        if self._previous_pending_token_type == self.WS:
+            prev_token: CommonToken = self._pending_tokens[-1]  # WS token
+            if self.get_indentation_length(prev_token.text) != 0: # there is an "indentation" before the first statement
+                err_msg: str = "first statement indented"
+                self.report_lexer_error(err_msg)
+                # insert an INDENT token before the first statement to raise an 'unexpected indent' error later by the parser
+                self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._cur_token)
+
+    def handle_NEWLINE_token(self):
+        if self._opened > 0: # We're in an implicit line joining, ignore the current NEWLINE token
+            self.hide_and_add_pending_token(self._cur_token)
+        else:
+            nl_token: CommonToken = self._cur_token # save the current NEWLINE token
+            is_looking_ahead: bool = self._ffg_token.type == self.WS
+            if is_looking_ahead:
+                self.set_current_and_following_tokens() # set the two next tokens
+
+            match self._ffg_token.type:
+                case self.NEWLINE | self.COMMENT | self.TYPE_COMMENT:
+                    # We're before a blank line or a comment or a type comment
+                    self.hide_and_add_pending_token(nl_token)     # ignore the NEWLINE token
+                    if is_looking_ahead:
+                        self.add_pending_token(self._cur_token) # WS token
+                case other:
+                    self.add_pending_token(nl_token)
+                    if is_looking_ahead: # We're on a whitespace(s) followed by a statement
+                        indentation_length: int = 0 if self._ffg_token.type == Token.EOF else \
+                                                  self.get_indentation_length(self._cur_token.text)
+
+                        if indentation_length != self._INVALID_LENGTH:
+                            self.add_pending_token(self._cur_token) # WS token
+                            self.insert_indent_or_dedent_token(indentation_length) # may insert INDENT token or DEDENT token(s)
+                        else:
+                            self.report_error("inconsistent use of tabs and spaces in indentation")
+                    else: # We're at a newline followed by a statement (there is no whitespace before the statement)
+                        self.insert_indent_or_dedent_token(0) # may insert DEDENT token(s)
+
+    def insert_indent_or_dedent_token(self, cur_indent_length: int):
+        prev_indent_length: int = self._indent_lengths[-1]
+        if cur_indent_length > prev_indent_length:
+            self.create_and_add_pending_token(self.INDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+            self._indent_lengths.append(cur_indent_length)
+        else:
+            while cur_indent_length < prev_indent_length: # more than 1 DEDENT token may be inserted to the token stream
+                self._indent_lengths.pop()
+                prev_indent_length = self._indent_lengths[-1]
+                if cur_indent_length <= prev_indent_length:
+                    self.create_and_add_pending_token(self.DEDENT, Token.DEFAULT_CHANNEL, None, self._ffg_token)
+                else:
+                    self.report_error("inconsistent dedent")
+
+    def handle_STRING_token(self): # remove the \<newline> escape sequences from the string literal
+        # https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+        line_joinFreeStringLiteral: str = re.sub(r"\\\r?\n", "", self._cur_token.text)
+        if len(self._cur_token.text) == len(line_joinFreeStringLiteral):
+            self.add_pending_token(self._cur_token)
+        else:
+            originalSTRINGtoken: CommonToken = self._cur_token.clone() # backup the original token
+            self._cur_token.text = line_joinFreeStringLiteral
+            self.add_pending_token(self._cur_token)              # add the modified token with inline string literal
+            self.hide_and_add_pending_token(originalSTRINGtoken) # add the original token to the hidden channel
+            # this inserted hidden token allows to restore the original string literal with the \<newline> escape sequences
+
+    def handle_FSTRING_MIDDLE_token(self): # replace the double braces '{{' or '}}' to single braces and hide the second braces
+            fs_mid: str = self._cur_token.text
+            fs_mid = fs_mid.replace("{{", "{_").replace("}}", "}_") # replace: {{ --> {_    }} --> }_
+            arrOfStr: list[str] = re.split(r"(?<=[{}])_", fs_mid) # split by {_  or  }_
+            s: str
+            for s in arrOfStr:
+                if s:
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, s, self._ffg_token)
+                    lastCharacter: str = s[-1:]
+                    if lastCharacter in "{}":
+                        self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.HIDDEN_CHANNEL, lastCharacter, self._ffg_token)
+
+    def handle_fstring_lexer_modes(self):
+        if self._modeStack:
+            match self._cur_token.type:
+                case self.LBRACE:
+                    self.pushMode(Lexer.DEFAULT_MODE)
+                    self._paren_or_bracket_opened.append(0)
+                case self.LPAR | self.LSQB:
+                    # https://peps.python.org/pep-0498/#lambdas-inside-expressions
+                    self._paren_or_bracket_opened[-1] += 1 # increment the last element
+                case self.RPAR | self.RSQB:
+                    self._paren_or_bracket_opened[-1] -= 1 # decrement the last element
+                case self.COLON:
+                    if self._paren_or_bracket_opened[-1] == 0:
+                        match self._modeStack[-1]: # check the previous lexer mode (the current is DEFAULT_MODE)
+                            case self.SINGLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_SINGLE_QUOTE_FSTRING_MODE \
+                               | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                            case self.DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.LONG_DOUBLE_QUOTE_FSTRING_MODE \
+                               | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                                self.mode(self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE) # continue in format spec. mode
+                case self.RBRACE:
+                    match self._mode:
+                        case Lexer.DEFAULT_MODE \
+                           | self.SINGLE_QUOTE_FORMAT_SPECIFICATION_MODE \
+                           | self.DOUBLE_QUOTE_FORMAT_SPECIFICATION_MODE:
+
+                            self.popMode()
+                            self._paren_or_bracket_opened.pop()
+                        case other:
+                            self.report_lexer_error("f-string: single '}' is not allowed")
+
+    def handle_FORMAT_SPECIFICATION_MODE(self):
+        if len(self._modeStack) != 0 \
+           and self._ffg_token.type == self.RBRACE:
+            
+            match self._cur_token.type:
+                case self.COLON | self.RBRACE:
+                    # insert an empty FSTRING_MIDDLE token instead of the missing format specification
+                    self.create_and_add_pending_token(self.FSTRING_MIDDLE, Token.DEFAULT_CHANNEL, "", self._ffg_token)
+
+    def insert_trailing_tokens(self):
+        match self._last_pending_token_type_for_default_channel:
+            case self.NEWLINE | self.DEDENT:
+                pass # no trailing NEWLINE token is needed
+            case other:
+                # insert an extra trailing NEWLINE token that serves as the end of the last statement
+                self.create_and_add_pending_token(self.NEWLINE, Token.DEFAULT_CHANNEL, None, self._ffg_token) # _ffg_token is EOF
+        self.insert_indent_or_dedent_token(0) # Now insert as much trailing DEDENT tokens as needed
+
+    def handle_EOF_token(self):
+        if self._last_pending_token_type_for_default_channel > 0:
+            # there was statement in the input (leading NEWLINE tokens are hidden)
+            self.insert_trailing_tokens()
+        self.add_pending_token(self._cur_token)
+
+    def hide_and_add_pending_token(self, token: CommonToken):
+        token.channel = Token.HIDDEN_CHANNEL
+        self.add_pending_token(token)
+
+    def create_and_add_pending_token(self, type: int, channel: int, text: str, base_token: CommonToken):
+        token: CommonToken = base_token.clone()
+        token.type  = type
+        token.channel = channel
+        token.stop = base_token.start - 1
+        token.text = "<" + self.symbolicNames[type] + ">" if text is None else \
+                     text
+
+        self.add_pending_token(token)
+
+    def add_pending_token(self, token: CommonToken):
+        # save the last pending token type because the _pending_tokens list can be empty by the nextToken()
+        self._previous_pending_token_type = token.type
+        if token.channel == Token.DEFAULT_CHANNEL:
+            self._last_pending_token_type_for_default_channel = self._previous_pending_token_type
+        self._pending_tokens.append(token)
+
+    def get_indentation_length(self, textWS: str) -> int: # the textWS may contain spaces, tabs or formfeeds
+        TAB_LENGTH: int = 8 # the standard number of spaces to replace a tab to spaces
+        length: int = 0
+        ch: str
+        for ch in textWS:
+            match ch:
+                case ' ':
+                    self._was_space_indentation = True
+                    length += 1
+                case '\t':
+                    self._was_tab_indentation = True
+                    length += TAB_LENGTH - (length % TAB_LENGTH)
+                case '\f': # formfeed
+                    length = 0
+
+        if self._was_tab_indentation and self._was_space_indentation:
+            if not self._was_indentation_mixed_with_spaces_and_tabs:
+                self._was_indentation_mixed_with_spaces_and_tabs = True
+                return self._INVALID_LENGTH # only for the first inconsistent indent
+        return length
+
+    def report_lexer_error(self, err_msg):
+        self.getErrorListenerDispatch().syntaxError(self, self._cur_token, self._cur_token.line, self._cur_token.column, self._ERR_TXT + err_msg, None)
+
+    def report_error(self, err_msg):
+        self.report_lexer_error(err_msg)
+
+        # the ERROR_TOKEN will raise an error in the parser
+        self.create_and_add_pending_token(self.ERROR_TOKEN, Token.DEFAULT_CHANNEL, self._ERR_TXT + err_msg, self._ffg_token)
+
+##
+## Project      : a helper class to implement specific PEG grammar expressions in an ANTLR4 grammar
+##
+## Developed by : Robert Einhorn
+##
+
+## Related PEG grammar expressions:
+## &e
+## https://peps.python.org/pep-0617/#e-3
+##
+## !e
+## https://peps.python.org/pep-0617/#e-4
+
+from antlr4 import InputStream, Parser
+from typing import TextIO
+import sys
+
+class PythonParserBase(Parser):
+    def __init__(self, input: InputStream, output: TextIO = sys.stdout):
+        super().__init__(input, output)
+
+    def isEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return self.getCurrentToken().text == tokenText
+
+    def isnotEqualCurrentTokenText(self, tokenText: str) -> bool:
+        return not self.isEqualCurrentTokenText(tokenText) # for compatibility with the '!' logical operator in other languages
+# PEG grammar for Python
+
+
+
+# ========================= START OF THE GRAMMAR =========================
+
+# General grammatical elements and rules:
+#
+# * Strings with double quotes (") denote SOFT KEYWORDS
+# * Strings with single quotes (') denote KEYWORDS
+# * Upper case names (NAME) denote tokens in the Grammar/Tokens file
+# * Rule names starting with "invalid_" are used for specialized syntax errors
+#     - These rules are NOT used in the first pass of the parser.
+#     - Only if the first pass fails to parse, a second pass including the invalid
+#       rules will be executed.
+#     - If the parser fails in the second phase with a generic syntax error, the
+#       location of the generic failure of the first pass will be used (this avoids
+#       reporting incorrect locations due to the invalid rules).
+#     - The order of the alternatives involving invalid rules matter
+#       (like any rule in PEG).
+#
+# Grammar Syntax (see PEP 617 for more information):
+#
+# rule_name: expression
+#   Optionally, a type can be included right after the rule name, which
+#   specifies the return type of the C or Python function corresponding to the
+#   rule:
+# rule_name[return_type]: expression
+#   If the return type is omitted, then a void * is returned in C and an Any in
+#   Python.
+# e1 e2
+#   Match e1, then match e2.
+# e1 | e2
+#   Match e1 or e2.
+#   The first alternative can also appear on the line after the rule name for
+#   formatting purposes. In that case, a | must be used before the first
+#   alternative, like so:
+#       rule_name[return_type]:
+#            | first_alt
+#            | second_alt
+# ( e )
+#   Match e (allows also to use other operators in the group like '(e)*')
+# [ e ] or e?
+#   Optionally match e.
+# e*
+#   Match zero or more occurrences of e.
+# e+
+#   Match one or more occurrences of e.
+# s.e+
+#   Match one or more occurrences of e, separated by s. The generated parse tree
+#   does not include the separator. This is otherwise identical to (e (s e)*).
+# &e
+#   Succeed if e can be parsed, without consuming any input.
+# !e
+#   Fail if e can be parsed, without consuming any input.
+# ~
+#   Commit to the current alternative, even if it fails to parse.
+#
+
+# STARTING RULES
+# ==============
+
+file: [statements] ENDMARKER 
+interactive: statement_newline 
+eval: expressions NEWLINE* ENDMARKER 
+func_type: '(' [type_expressions] ')' '->' expression NEWLINE* ENDMARKER 
+
+# GENERAL STATEMENTS
+# ==================
+
+statements: statement+ 
+
+statement: compound_stmt  | simple_stmts 
+
+statement_newline:
+    | compound_stmt NEWLINE 
+    | simple_stmts
+    | NEWLINE 
+    | ENDMARKER 
+
+simple_stmts:
+    | simple_stmt !';' NEWLINE  # Not needed, there for speedup
+    | ';'.simple_stmt+ [';'] NEWLINE 
+
+# NOTE: assignment MUST precede expression, else parsing a simple assignment
+# will throw a SyntaxError.
+simple_stmt:
+    | assignment
+    | type_alias
+    | star_expressions 
+    | return_stmt
+    | import_stmt
+    | raise_stmt
+    | 'pass' 
+    | del_stmt
+    | yield_stmt
+    | assert_stmt
+    | 'break' 
+    | 'continue' 
+    | global_stmt
+    | nonlocal_stmt
+
+compound_stmt:
+    | function_def
+    | if_stmt
+    | class_def
+    | with_stmt
+    | for_stmt
+    | try_stmt
+    | while_stmt
+    | match_stmt
+
+# SIMPLE STATEMENTS
+# =================
+
+# NOTE: annotated_rhs may start with 'yield'; yield_expr must start with 'yield'
+assignment:
+    | NAME ':' expression ['=' annotated_rhs ] 
+    | ('(' single_target ')' 
+         | single_subscript_attribute_target) ':' expression ['=' annotated_rhs ] 
+    | (star_targets '=' )+ (yield_expr | star_expressions) !'=' [TYPE_COMMENT] 
+    | single_target augassign ~ (yield_expr | star_expressions) 
+
+annotated_rhs: yield_expr | star_expressions
+
+augassign:
+    | '+=' 
+    | '-=' 
+    | '*=' 
+    | '@=' 
+    | '/=' 
+    | '%=' 
+    | '&=' 
+    | '|=' 
+    | '^=' 
+    | '<<=' 
+    | '>>=' 
+    | '**=' 
+    | '//=' 
+
+return_stmt:
+    | 'return' [star_expressions] 
+
+raise_stmt:
+    | 'raise' expression ['from' expression ] 
+    | 'raise' 
+
+global_stmt: 'global' ','.NAME+ 
+
+nonlocal_stmt: 'nonlocal' ','.NAME+ 
+
+del_stmt:
+    | 'del' del_targets &(';' | NEWLINE) 
+
+yield_stmt: yield_expr 
+
+assert_stmt: 'assert' expression [',' expression ] 
+
+import_stmt:
+    | import_name
+    | import_from
+
+# Import statements
+# -----------------
+
+import_name: 'import' dotted_as_names 
+# note below: the ('.' | '...') is necessary because '...' is tokenized as ELLIPSIS
+import_from:
+    | 'from' ('.' | '...')* dotted_name 'import' import_from_targets 
+    | 'from' ('.' | '...')+ 'import' import_from_targets 
+import_from_targets:
+    | '(' import_from_as_names [','] ')' 
+    | import_from_as_names !','
+    | '*' 
+import_from_as_names:
+    | ','.import_from_as_name+ 
+import_from_as_name:
+    | NAME ['as' NAME ] 
+dotted_as_names:
+    | ','.dotted_as_name+ 
+dotted_as_name:
+    | dotted_name ['as' NAME ] 
+dotted_name:
+    | dotted_name '.' NAME 
+    | NAME
+
+# COMPOUND STATEMENTS
+# ===================
+
+# Common elements
+# ---------------
+
+block:
+    | NEWLINE INDENT statements DEDENT 
+    | simple_stmts
+
+decorators: ('@' named_expression NEWLINE )+ 
+
+# Class definitions
+# -----------------
+
+class_def:
+    | decorators class_def_raw 
+    | class_def_raw
+
+class_def_raw:
+    | 'class' NAME [type_params] ['(' [arguments] ')' ] ':' block 
+
+# Function definitions
+# --------------------
+
+function_def:
+    | decorators function_def_raw 
+    | function_def_raw
+
+function_def_raw:
+    | 'def' NAME [type_params] '(' [params] ')' ['->' expression ] ':' [func_type_comment] block 
+    | ASYNC 'def' NAME [type_params] '(' [params] ')' ['->' expression ] ':' [func_type_comment] block 
+
+# Function parameters
+# -------------------
+
+params:
+    | parameters
+
+parameters:
+    | slash_no_default param_no_default* param_with_default* [star_etc] 
+    | slash_with_default param_with_default* [star_etc] 
+    | param_no_default+ param_with_default* [star_etc] 
+    | param_with_default+ [star_etc] 
+    | star_etc 
+
+# Some duplication here because we can't write (',' | &')'),
+# which is because we don't support empty alternatives (yet).
+
+slash_no_default:
+    | param_no_default+ '/' ',' 
+    | param_no_default+ '/' &')' 
+slash_with_default:
+    | param_no_default* param_with_default+ '/' ',' 
+    | param_no_default* param_with_default+ '/' &')' 
+
+star_etc:
+    | '*' param_no_default param_maybe_default* [kwds] 
+    | '*' param_no_default_star_annotation param_maybe_default* [kwds] 
+    | '*' ',' param_maybe_default+ [kwds] 
+    | kwds 
+
+kwds:
+    | '**' param_no_default 
+
+# One parameter.  This *includes* a following comma and type comment.
+#
+# There are three styles:
+# - No default
+# - With default
+# - Maybe with default
+#
+# There are two alternative forms of each, to deal with type comments:
+# - Ends in a comma followed by an optional type comment
+# - No comma, optional type comment, must be followed by close paren
+# The latter form is for a final parameter without trailing comma.
+#
+
+param_no_default:
+    | param ',' TYPE_COMMENT? 
+    | param TYPE_COMMENT? &')' 
+param_no_default_star_annotation:
+    | param_star_annotation ',' TYPE_COMMENT? 
+    | param_star_annotation TYPE_COMMENT? &')' 
+param_with_default:
+    | param default ',' TYPE_COMMENT? 
+    | param default TYPE_COMMENT? &')' 
+param_maybe_default:
+    | param default? ',' TYPE_COMMENT? 
+    | param default? TYPE_COMMENT? &')' 
+param: NAME annotation? 
+param_star_annotation: NAME star_annotation 
+annotation: ':' expression 
+star_annotation: ':' star_expression 
+default: '=' expression  | invalid_default
+
+# If statement
+# ------------
+
+if_stmt:
+    | 'if' named_expression ':' block elif_stmt 
+    | 'if' named_expression ':' block [else_block] 
+elif_stmt:
+    | 'elif' named_expression ':' block elif_stmt 
+    | 'elif' named_expression ':' block [else_block] 
+else_block:
+    | 'else' ':' block 
+
+# While statement
+# ---------------
+
+while_stmt:
+    | 'while' named_expression ':' block [else_block] 
+
+# For statement
+# -------------
+
+for_stmt:
+    | 'for' star_targets 'in' ~ star_expressions ':' [TYPE_COMMENT] block [else_block] 
+    | ASYNC 'for' star_targets 'in' ~ star_expressions ':' [TYPE_COMMENT] block [else_block] 
+
+# With statement
+# --------------
+
+with_stmt:
+    | 'with' '(' ','.with_item+ ','? ')' ':' block 
+    | 'with' ','.with_item+ ':' [TYPE_COMMENT] block 
+    | ASYNC 'with' '(' ','.with_item+ ','? ')' ':' block 
+    | ASYNC 'with' ','.with_item+ ':' [TYPE_COMMENT] block 
+
+with_item:
+    | expression 'as' star_target &(',' | ')' | ':') 
+    | expression 
+
+# Try statement
+# -------------
+
+try_stmt:
+    | 'try' ':' block finally_block 
+    | 'try' ':' block except_block+ [else_block] [finally_block] 
+    | 'try' ':' block except_star_block+ [else_block] [finally_block] 
+
+
+# Except statement
+# ----------------
+
+except_block:
+    | 'except' expression ['as' NAME ] ':' block 
+    | 'except' ':' block 
+except_star_block:
+    | 'except' '*' expression ['as' NAME ] ':' block 
+finally_block:
+    | 'finally' ':' block 
+
+# Match statement
+# ---------------
+
+match_stmt:
+    | "match" subject_expr ':' NEWLINE INDENT case_block+ DEDENT 
+
+subject_expr:
+    | star_named_expression ',' star_named_expressions? 
+    | named_expression
+
+case_block:
+    | "case" patterns guard? ':' block 
+
+guard: 'if' named_expression 
+
+patterns:
+    | open_sequence_pattern 
+    | pattern
+
+pattern:
+    | as_pattern
+    | or_pattern
+
+as_pattern:
+    | or_pattern 'as' pattern_capture_target 
+
+or_pattern:
+    | '|'.closed_pattern+ 
+
+closed_pattern:
+    | literal_pattern
+    | capture_pattern
+    | wildcard_pattern
+    | value_pattern
+    | group_pattern
+    | sequence_pattern
+    | mapping_pattern
+    | class_pattern
+
+# Literal patterns are used for equality and identity constraints
+literal_pattern:
+    | signed_number !('+' | '-') 
+    | complex_number 
+    | strings 
+    | 'None' 
+    | 'True' 
+    | 'False' 
+
+# Literal expressions are used to restrict permitted mapping pattern keys
+literal_expr:
+    | signed_number !('+' | '-')
+    | complex_number
+    | strings
+    | 'None' 
+    | 'True' 
+    | 'False' 
+
+complex_number:
+    | signed_real_number '+' imaginary_number 
+    | signed_real_number '-' imaginary_number  
+
+signed_number:
+    | NUMBER
+    | '-' NUMBER 
+
+signed_real_number:
+    | real_number
+    | '-' real_number 
+
+real_number:
+    | NUMBER 
+
+imaginary_number:
+    | NUMBER 
+
+capture_pattern:
+    | pattern_capture_target 
+
+pattern_capture_target:
+    | !"_" NAME !('.' | '(' | '=') 
+
+wildcard_pattern:
+    | "_" 
+
+value_pattern:
+    | attr !('.' | '(' | '=') 
+
+attr:
+    | name_or_attr '.' NAME 
+
+name_or_attr:
+    | attr
+    | NAME
+
+group_pattern:
+    | '(' pattern ')' 
+
+sequence_pattern:
+    | '[' maybe_sequence_pattern? ']' 
+    | '(' open_sequence_pattern? ')' 
+
+open_sequence_pattern:
+    | maybe_star_pattern ',' maybe_sequence_pattern? 
+
+maybe_sequence_pattern:
+    | ','.maybe_star_pattern+ ','? 
+
+maybe_star_pattern:
+    | star_pattern
+    | pattern
+
+star_pattern:
+    | '*' pattern_capture_target 
+    | '*' wildcard_pattern 
+
+mapping_pattern:
+    | '{' '}' 
+    | '{' double_star_pattern ','? '}' 
+    | '{' items_pattern ',' double_star_pattern ','? '}' 
+    | '{' items_pattern ','? '}' 
+
+items_pattern:
+    | ','.key_value_pattern+
+
+key_value_pattern:
+    | (literal_expr | attr) ':' pattern 
+
+double_star_pattern:
+    | '**' pattern_capture_target 
+
+class_pattern:
+    | name_or_attr '(' ')' 
+    | name_or_attr '(' positional_patterns ','? ')' 
+    | name_or_attr '(' keyword_patterns ','? ')' 
+    | name_or_attr '(' positional_patterns ',' keyword_patterns ','? ')' 
+
+positional_patterns:
+    | ','.pattern+ 
+
+keyword_patterns:
+    | ','.keyword_pattern+
+
+keyword_pattern:
+    | NAME '=' pattern 
+
+# Type statement
+# ---------------
+
+type_alias:
+    | "type" NAME [type_params] '=' expression 
+
+# Type parameter declaration
+# --------------------------
+
+type_params: '[' type_param_seq  ']' 
+
+type_param_seq: ','.type_param+ [','] 
+
+type_param:
+    | NAME [type_param_bound] 
+    | '*' NAME ':' expression 
+    | '*' NAME 
+    | '**' NAME ':' expression 
+    | '**' NAME 
+
+type_param_bound: ':' expression 
+
+# EXPRESSIONS
+# -----------
+
+expressions:
+    | expression (',' expression )+ [','] 
+    | expression ',' 
+    | expression
+
+expression:
+    | disjunction 'if' disjunction 'else' expression 
+    | disjunction
+    | lambdef
+
+yield_expr:
+    | 'yield' 'from' expression 
+    | 'yield' [star_expressions] 
+
+star_expressions:
+    | star_expression (',' star_expression )+ [','] 
+    | star_expression ',' 
+    | star_expression
+
+star_expression:
+    | '*' bitwise_or 
+    | expression
+
+star_named_expressions: ','.star_named_expression+ [','] 
+
+star_named_expression:
+    | '*' bitwise_or 
+    | named_expression
+
+assignment_expression:
+    | NAME ':=' ~ expression 
+
+named_expression:
+    | assignment_expression
+    | expression !':='
+
+disjunction:
+    | conjunction ('or' conjunction )+ 
+    | conjunction
+
+conjunction:
+    | inversion ('and' inversion )+ 
+    | inversion
+
+inversion:
+    | 'not' inversion 
+    | comparison
+
+# Comparison operators
+# --------------------
+
+comparison:
+    | bitwise_or compare_op_bitwise_or_pair+ 
+    | bitwise_or
+
+compare_op_bitwise_or_pair:
+    | eq_bitwise_or
+    | noteq_bitwise_or
+    | lte_bitwise_or
+    | lt_bitwise_or
+    | gte_bitwise_or
+    | gt_bitwise_or
+    | notin_bitwise_or
+    | in_bitwise_or
+    | isnot_bitwise_or
+    | is_bitwise_or
+
+eq_bitwise_or: '==' bitwise_or 
+noteq_bitwise_or:
+    | ('!=' ) bitwise_or 
+lte_bitwise_or: '<=' bitwise_or 
+lt_bitwise_or: '<' bitwise_or 
+gte_bitwise_or: '>=' bitwise_or 
+gt_bitwise_or: '>' bitwise_or 
+notin_bitwise_or: 'not' 'in' bitwise_or 
+in_bitwise_or: 'in' bitwise_or 
+isnot_bitwise_or: 'is' 'not' bitwise_or 
+is_bitwise_or: 'is' bitwise_or 
+
+# Bitwise operators
+# -----------------
+
+bitwise_or:
+    | bitwise_or '|' bitwise_xor 
+    | bitwise_xor
+
+bitwise_xor:
+    | bitwise_xor '^' bitwise_and 
+    | bitwise_and
+
+bitwise_and:
+    | bitwise_and '&' shift_expr 
+    | shift_expr
+
+shift_expr:
+    | shift_expr '<<' sum 
+    | shift_expr '>>' sum 
+    | sum
+
+# Arithmetic operators
+# --------------------
+
+sum:
+    | sum '+' term 
+    | sum '-' term 
+    | term
+
+term:
+    | term '*' factor 
+    | term '/' factor 
+    | term '//' factor 
+    | term '%' factor 
+    | term '@' factor 
+    | factor
+
+factor:
+    | '+' factor 
+    | '-' factor 
+    | '~' factor 
+    | power
+
+power:
+    | await_primary '**' factor 
+    | await_primary
+
+# Primary elements
+# ----------------
+
+# Primary elements are things like "obj.something.something", "obj[something]", "obj(something)", "obj" ...
+
+await_primary:
+    | AWAIT primary 
+    | primary
+
+primary:
+    | primary '.' NAME 
+    | primary genexp 
+    | primary '(' [arguments] ')' 
+    | primary '[' slices ']' 
+    | atom
+
+slices:
+    | slice !',' 
+    | ','.(slice | starred_expression)+ [','] 
+
+slice:
+    | [expression] ':' [expression] [':' [expression] ] 
+    | named_expression 
+
+atom:
+    | NAME
+    | 'True' 
+    | 'False' 
+    | 'None' 
+    | strings
+    | NUMBER
+    | (tuple | group | genexp)
+    | (list | listcomp)
+    | (dict | set | dictcomp | setcomp)
+    | '...' 
+
+group:
+    | '(' (yield_expr | named_expression) ')' 
+
+# Lambda functions
+# ----------------
+
+lambdef:
+    | 'lambda' [lambda_params] ':' expression 
+
+lambda_params:
+    | lambda_parameters
+
+# lambda_parameters etc. duplicates parameters but without annotations
+# or type comments, and if there's no comma after a parameter, we expect
+# a colon, not a close parenthesis.  (For more, see parameters above.)
+#
+lambda_parameters:
+    | lambda_slash_no_default lambda_param_no_default* lambda_param_with_default* [lambda_star_etc] 
+    | lambda_slash_with_default lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_no_default+ lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_with_default+ [lambda_star_etc] 
+    | lambda_star_etc 
+
+lambda_slash_no_default:
+    | lambda_param_no_default+ '/' ',' 
+    | lambda_param_no_default+ '/' &':' 
+
+lambda_slash_with_default:
+    | lambda_param_no_default* lambda_param_with_default+ '/' ',' 
+    | lambda_param_no_default* lambda_param_with_default+ '/' &':' 
+
+lambda_star_etc:
+    | '*' lambda_param_no_default lambda_param_maybe_default* [lambda_kwds] 
+    | '*' ',' lambda_param_maybe_default+ [lambda_kwds] 
+    | lambda_kwds 
+
+lambda_kwds:
+    | '**' lambda_param_no_default 
+
+lambda_param_no_default:
+    | lambda_param ',' 
+    | lambda_param &':' 
+lambda_param_with_default:
+    | lambda_param default ',' 
+    | lambda_param default &':' 
+lambda_param_maybe_default:
+    | lambda_param default? ',' 
+    | lambda_param default? &':' 
+lambda_param: NAME 
+
+# LITERALS
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+fstring_conversion:
+    | "!" NAME 
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' bitwise_or 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# FUNCTION CALL ARGUMENTS
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+star_targets_list_seq: ','.star_target+ [','] 
+
+star_targets_tuple_seq:
+    | star_target (',' star_target )+ [','] 
+    | star_target ',' 
+
+star_target:
+    | '*' (!'*' star_target) 
+    | target_with_star_atom
+
+target_with_star_atom:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | star_atom
+
+star_atom:
+    | NAME 
+    | '(' target_with_star_atom ')' 
+    | '(' [star_targets_tuple_seq] ')' 
+    | '[' [star_targets_list_seq] ']' 
+
+single_target:
+    | single_subscript_attribute_target
+    | NAME 
+    | '(' single_target ')' 
+
+single_subscript_attribute_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+
+t_primary:
+    | t_primary '.' NAME &t_lookahead 
+    | t_primary '[' slices ']' &t_lookahead 
+    | t_primary genexp &t_lookahead 
+    | t_primary '(' [arguments] ')' &t_lookahead 
+    | atom &t_lookahead 
+
+t_lookahead: '(' | '[' | '.'
+
+# Targets for del statements
+# --------------------------
+
+del_targets: ','.del_target+ [','] 
+
+del_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | del_t_atom
+
+del_t_atom:
+    | NAME 
+    | '(' del_target ')' 
+    | '(' [del_targets] ')' 
+    | '[' [del_targets] ']' 
+
+# TYPING ELEMENTS
+# ---------------
+
+# type_expressions allow */** but ignore them
+type_expressions:
+    | ','.expression+ ',' '*' expression ',' '**' expression 
+    | ','.expression+ ',' '*' expression 
+    | ','.expression+ ',' '**' expression 
+    | '*' expression ',' '**' expression 
+    | '*' expression 
+    | '**' expression 
+    | ','.expression+ 
+
+func_type_comment:
+    | NEWLINE TYPE_COMMENT &(NEWLINE INDENT)   # Must be followed by indented block
+    | TYPE_COMMENT
+
+# ========================= END OF THE GRAMMAR ===========================
+
+
+
+# ========================= START OF INVALID RULES =======================
+
+/*
+Python grammar
+The MIT License (MIT)
+Copyright (c) 2021 Robert Einhorn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+ */
+
+/*
+  * Project      : an ANTLR4 lexer grammar for Python 3
+  *                https://github.com/RobEin/ANTLR4-parser-for-Python-3.12
+  * Developed by : Robert Einhorn, robert.einhorn.hu@gmail.com
+  */
+
+// $antlr-format alignTrailingComments true, columnLimit 150, maxEmptyLinesToKeep 1, reflowComments false, useTab false
+// $antlr-format allowShortRulesOnASingleLine true, allowShortBlocksOnASingleLine true, minEmptyLines 0, alignSemicolons ownLine
+// $antlr-format alignColons trailing, singleLineOverrulesHangingColon true, alignLexerCommands true, alignLabels true, alignTrailers true
+
+lexer grammar PythonLexer;
+
+options {
+    superClass = PythonLexerBase;
+}
+
+tokens {
+    INDENT,
+    DEDENT, // https://docs.python.org/3.12/reference/lexical_analysis.html#indentation
+    FSTRING_START,
+    FSTRING_MIDDLE,
+    FSTRING_END // https://peps.python.org/pep-0701/#specification
+}
+
+// https://docs.python.org/3.12/reference/lexical_analysis.html
+
