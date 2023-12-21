@@ -1,2 +1,2 @@
 # Chariot-code
-A new project and language meant for Easley proficiency and powerful expression.
+A new project and language meant for Easy proficiency and powerful expression.
