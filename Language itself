@@ -3226,3 +3226,1473 @@ tokens {
 
 // https://docs.python.org/3.12/reference/lexical_analysis.html
 
+# ========================= START OF INVALID RULES (Continued) =======================
+
+// ... (previous rules)
+
+lexer grammar PythonLexer;
+
+options {
+    superClass = PythonLexerBase;
+}
+
+tokens {
+    INDENT,
+    DEDENT,
+    FSTRING_START,
+    FSTRING_MIDDLE,
+    FSTRING_END
+}
+
+// ... (previous rules)
+
+// ========================= END OF INVALID RULES =======================
+
+// ========================= START OF THE GRAMMAR (Continued) =======================
+
+parser grammar PythonParser;
+
+options {
+  tokenVocab = PythonLexer;
+}
+
+# ... (previous rules)
+
+# EXPRESSIONS (Continued)
+# -----------
+
+# (No changes to expressions, it continues from the previous code)
+
+# ... (previous rules)
+
+# FUNCTION CALL ARGUMENTS (Continued)
+# =======================
+
+# (No changes to arguments, it continues from the previous code)
+
+# ... (previous rules)
+
+# ASSIGNMENT TARGETS (Continued)
+# ==================
+
+# (No changes to assignment targets, it continues from the previous code)
+
+# ... (previous rules)
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# (No changes to typing elements, it continues from the previous code)
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Continued) =======================
+
+# LITERALS (Continued)
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+fstring_conversion:
+    | "!" NAME 
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' bitwise_or 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# FUNCTION CALL ARGUMENTS (Continued)
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS (Continued)
+# ==================
+
+# (No changes to assignment targets, it continues from the previous code)
+
+# ... (previous rules)
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# (No changes to typing elements, it continues from the previous code)
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Continued) =======================
+
+# GENERAL ELEMENTS
+# ---------------
+
+# (No changes to general elements, it continues from the previous code)
+
+# ... (previous rules)
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# (No changes to typing elements, it continues from the previous code)
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Enhanced) =======================
+
+// ... (previous rules)
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+type_param:
+    | NAME [type_param_bound] 
+    | '*' NAME ':' expression 
+    | '*' NAME 
+    | '**' NAME ':' expression 
+    | '**' NAME 
+
+type_param_bound: ':' expression 
+
+# EXPRESSIONS (Continued)
+# -----------
+
+expressions:
+    | expression (',' expression )+ [','] 
+    | expression ',' 
+    | expression
+
+expression:
+    | disjunction 'if' disjunction 'else' expression 
+    | disjunction
+    | lambdef
+
+yield_expr:
+    | 'yield' 'from' expression 
+    | 'yield' [star_expressions] 
+
+star_expressions:
+    | star_expression (',' star_expression )+ [','] 
+    | star_expression ',' 
+    | star_expression
+
+star_expression:
+    | '*' bitwise_or 
+    | expression
+
+star_named_expressions: ','.star_named_expression+ [','] 
+
+star_named_expression:
+    | '*' bitwise_or 
+    | named_expression
+
+assignment_expression:
+    | NAME ':=' ~ expression 
+
+named_expression:
+    | assignment_expression
+    | expression !':='
+
+disjunction:
+    | conjunction ('or' conjunction )+ 
+    | conjunction
+
+conjunction:
+    | inversion ('and' inversion )+ 
+    | inversion
+
+inversion:
+    | 'not' inversion 
+    | comparison
+
+// ... (rest of the expressions, arithmetic operators, primary elements, etc.)
+
+# ASSIGNMENT TARGETS (Continued)
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+# ... (rest of the assignment targets)
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# (No changes to typing elements, it continues from the previous code)
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Enhanced) =======================
+
+// ... (previous rules)
+
+# LITERALS (Continued)
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+
+fstring_conversion:
+    | "!" NAME 
+
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts (Continued)
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' bitwise_or 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators (Continued)
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# ... (rest of the grammar)
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Enhanced) =======================
+
+// ... (previous rules)
+
+# FUNCTION CALL ARGUMENTS (Continued)
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS (Continued)
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+star_targets_list_seq: ','.star_target+ [','] 
+
+star_targets_tuple_seq:
+    | star_target (',' star_target )+ [','] 
+    | star_target ',' 
+
+star_target:
+    | '*' (!'*' star_target) 
+    | target_with_star_atom
+
+target_with_star_atom:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | star_atom
+
+star_atom:
+    | NAME 
+    | '(' target_with_star_atom ')' 
+    | '(' [star_targets_tuple_seq] ')' 
+    | '[' [star_targets_list_seq] ']' 
+
+single_target:
+    | single_subscript_attribute_target
+    | NAME 
+    | '(' single_target ')' 
+
+single_subscript_attribute_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+
+t_primary:
+    | t_primary '.' NAME &t_lookahead 
+    | t_primary '[' slices ']' &t_lookahead 
+    | t_primary genexp &t_lookahead 
+    | t_primary '(' [arguments] ')' &t_lookahead 
+    | atom &t_lookahead 
+
+t_lookahead: '(' | '[' | '.'
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# type_expressions allow */** but ignore them
+type_expressions:
+    | ','.expression+ ',' '*' expression ',' '**' expression 
+    | ','.expression+ ',' '*' expression 
+    | ','.expression+ ',' '**' expression 
+    | '*' expression ',' '**' expression 
+    | '*' expression 
+    | '**' expression 
+    | ','.expression+ 
+
+func_type_comment:
+    | NEWLINE TYPE_COMMENT &(NEWLINE INDENT)   # Must be followed by indented block
+    | TYPE_COMMENT
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Enhanced and Extended) =======================
+
+// ... (previous rules)
+
+# FUNCTION CALL ARGUMENTS (Continued)
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS (Continued)
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+star_targets_list_seq: ','.star_target+ [','] 
+
+star_targets_tuple_seq:
+    | star_target (',' star_target )+ [','] 
+    | star_target ',' 
+
+star_target:
+    | '*' (!'*' star_target) 
+    | target_with_star_atom
+
+target_with_star_atom:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | star_atom
+
+star_atom:
+    | NAME 
+    | '(' target_with_star_atom ')' 
+    | '(' [star_targets_tuple_seq] ')' 
+    | '[' [star_targets_list_seq] ']' 
+
+single_target:
+    | single_subscript_attribute_target
+    | NAME 
+    | '(' single_target ')' 
+
+single_subscript_attribute_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+
+t_primary:
+    | t_primary '.' NAME &t_lookahead 
+    | t_primary '[' slices ']' &t_lookahead 
+    | t_primary genexp &t_lookahead 
+    | t_primary '(' [arguments] ')' &t_lookahead 
+    | atom &t_lookahead 
+
+t_lookahead: '(' | '[' | '.'
+
+# TYPING ELEMENTS (Continued)
+# ---------------
+
+# type_expressions allow */** but ignore them
+type_expressions:
+    | ','.expression+ ',' '*' expression ',' '**' expression 
+    | ','.expression+ ',' '*' expression 
+    | ','.expression+ ',' '**' expression 
+    | '*' expression ',' '**' expression 
+    | '*' expression 
+    | '**' expression 
+    | ','.expression+ 
+
+func_type_comment:
+    | NEWLINE TYPE_COMMENT &(NEWLINE INDENT)   # Must be followed by indented block
+    | TYPE_COMMENT
+
+# LITERALS (Extended)
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+fstring_conversion:
+    | "!" NAME 
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts (Extended)
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' expression 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators (Extended)
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# ========================= END OF THE GRAMMAR =======================
+
+# ========================= START OF THE GRAMMAR (Extended) =======================
+
+// ... (previous rules)
+
+# EXCEPTION HANDLING (Extended)
+# -------------------
+
+try_stmt:
+    | TRY ':' suite except_clause+ [else_clause] [finally_clause] 
+    | TRY ':' suite [else_clause] [finally_clause] 
+
+except_clause:
+    | EXCEPT [type_param] [AS NAME] ':' suite 
+
+else_clause:
+    | ELSE ':' suite 
+
+finally_clause:
+    | FINALLY ':' suite 
+
+# WITH STATEMENT (Extended)
+# -------------------
+
+with_stmt:
+    | WITH ','.with_item+ ':' suite 
+
+with_item:
+    | with_item_colon
+    | t_primary
+
+with_item_colon:
+    | t_primary AS [expr] 
+
+# CLASS DEFINITION (Extended)
+# -------------------
+
+classdef:
+    | CLASS NAME [type_params] [':' type_params] [class_list] ':' suite 
+
+class_list:
+    | '(' ','.expression+ ')' 
+
+# FUNCTION DEFINITION (Extended)
+# -------------------
+
+funcdef:
+    | DEF NAME [parameters] [':' type_params] ['->' expression] [func_type_comment] ':' suite 
+
+# PARAMETERS (Extended)
+# -------------------
+
+parameters:
+    | '(' [typedargslist] ')' 
+
+typedargslist:
+    | t_fpdef [':' expression] [',' t_fpdef [':' expression]]* [',' [t_starred_and_default]] [',' t_double_starred_and_default] 
+    | [t_starred_and_default] [',' t_double_starred_and_default] 
+    | [t_double_starred_and_default] 
+
+t_fpdef:
+    | NAME 
+    | '(' [typedargslist] ')' 
+
+t_starred_and_default:
+    | '*' t_fpdef [':' expression] 
+
+t_double_starred_and_default:
+    | '**' t_fpdef [':' expression] 
+
+# EXPRESSIONS (Extended)
+# --------------------
+
+expression:
+    | disjunction 'if' disjunction 'else' expression 
+    | disjunction
+    | lambdef
+    | test_assignment
+
+test_assignment:
+    | or_test (assignment_operator test_assignment)? 
+
+assignment_operator:
+    | [TYPE_IGNORE | TYPE_COMMENT] '=' 
+    | ADD_ASSIGN 
+    | SUB_ASSIGN 
+    | MULT_ASSIGN 
+    | AT_ASSIGN 
+    | DIV_ASSIGN 
+    | MOD_ASSIGN 
+    | AND_ASSIGN 
+    | OR_ASSIGN 
+    | XOR_ASSIGN 
+    | LEFT_SHIFT_ASSIGN 
+    | RIGHT_SHIFT_ASSIGN 
+    | POWER_ASSIGN 
+    | IDIV_ASSIGN 
+
+# BINARY OPERATORS (Extended)
+# -------------------------
+
+or_test:
+    | and_test ('or' and_test)* 
+
+and_test:
+    | not_test ('and' not_test)* 
+
+not_test:
+    | 'not' not_test 
+    | comparison
+
+# Comparison operators (Extended)
+# ------------------------------
+
+comparison:
+    | bitwise_or compare_op_bitwise_or_pair+ 
+    | bitwise_or
+
+compare_op_bitwise_or_pair:
+    | eq_bitwise_or
+    | noteq_bitwise_or
+    | lte_bitwise_or
+    | lt_bitwise_or
+    | gte_bitwise_or
+    | gt_bitwise_or
+    | notin_bitwise_or
+    | in_bitwise_or
+    | isnot_bitwise_or
+    | is_bitwise_or
+
+eq_bitwise_or: '==' bitwise_or 
+noteq_bitwise_or:
+    | ('!=' ) bitwise_or 
+lte_bitwise_or: '<=' bitwise_or 
+lt_bitwise_or: '<' bitwise_or 
+gte_bitwise_or: '>=' bitwise_or 
+gt_bitwise_or: '>' bitwise_or 
+notin_bitwise_or: 'not' 'in' bitwise_or 
+in_bitwise_or: 'in' bitwise_or 
+isnot_bitwise_or: 'is' 'not' bitwise_or 
+is_bitwise_or: 'is' bitwise_or 
+
+# Binary operators (Extended)
+# --------------------------
+
+bitwise_or:
+    | bitwise_or '|' bitwise_xor 
+    | bitwise_xor
+
+bitwise_xor:
+    | bitwise_xor '^' bitwise_and 
+    | bitwise_and
+
+bitwise_and:
+    | bitwise_and '&' shift_expr 
+    | shift_expr
+
+shift_expr:
+    | shift_expr '<<' sum 
+    | shift_expr '>>' sum 
+    | sum
+
+# Arithmetic operators (Extended)
+# ------------------------------
+
+sum:
+    | sum '+' term 
+    | sum '-' term 
+    | term
+
+term:
+    | term '*' factor 
+    | term '/' factor 
+    | term '//' factor 
+    | term '%' factor 
+    | term '@' factor 
+    | factor
+
+factor:
+    | '+' factor 
+    | '-' factor 
+    | '~' factor 
+    | power
+
+power:
+    | await_primary '**' factor 
+    | await_primary
+
+# Primary elements (Extended)
+# --------------------------
+
+# Primary elements are things like "obj.something.something", "obj[something]", "obj(something)", "obj" ...
+
+await_primary:
+    | AWAIT primary 
+    | primary
+
+primary:
+    | primary '.' NAME 
+    | primary genexp 
+    | primary '(' [arguments] ')' 
+    | primary '[' slices ']' 
+    | atom
+
+slices:
+    | slice !',' 
+    | ','.(slice | starred_expression)+ [','] 
+
+slice:
+    | [expression] ':' [expression] [':' [expression] ] 
+    | named_expression 
+
+atom:
+    | NAME
+    | 'True' 
+    | 'False' 
+    | 'None' 
+    | strings
+    | NUMBER
+    | (tuple | group | genexp)
+    | (list | listcomp)
+    | (dict | set | dictcomp | setcomp)
+    | '...' 
+
+group:
+    | '(' (yield_expr | named_expression) ')' 
+
+# Lambda functions (Extended)
+# --------------------------
+
+lambdef:
+    | 'lambda' [lambda_params] ':' expression 
+
+lambda_params:
+    | lambda_parameters
+
+# lambda_parameters etc. duplicates parameters but without annotations
+# or type comments, and if there's no comma after a parameter, we expect
+# a colon, not a close parenthesis.  (For more, see parameters above.)
+#
+lambda_parameters:
+    | lambda_slash_no_default lambda_param_no_default* lambda_param_with_default* [lambda_star_etc] 
+    | lambda_slash_with_default lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_no_default+ lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_with_default+ [lambda_star_etc] 
+    | lambda_star_etc 
+
+lambda_slash_no_default:
+    | lambda_param_no_default+ '/' ',' 
+    | lambda_param_no_default+ '/' &':' 
+
+lambda_slash_with_default:
+    | lambda_param_no_default* lambda_param_with_default+ '/' ',' 
+    | lambda_param_no_default* lambda_param_with_default+ '/' &':' 
+
+lambda_star_etc:
+    | '*' lambda_param_no_default lambda_param_maybe_default* [lambda_kwds] 
+    | '*' ',' lambda_param_maybe_default+ [lambda_kwds] 
+    | lambda_kwds 
+
+lambda_kwds:
+    | '**' lambda_param_no_default 
+
+lambda_param_no_default:
+    | lambda_param ',' 
+    | lambda_param &':' 
+lambda_param_with_default:
+    | lambda_param default ',' 
+    | lambda_param default & ':' 
+lambda_param_maybe_default:
+    | lambda_param default? ',' 
+    | lambda_param default? &':' 
+lambda_param: NAME 
+
+# LITERALS (Extended)
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+fstring_conversion:
+    | "!" NAME 
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts (Extended)
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' expression 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators (Extended)
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# FUNCTION CALL ARGUMENTS (Extended)
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS (Extended)
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+star_targets_list_seq: ','.star_target+ [','] 
+
+star_targets_tuple_seq:
+    | star_target (',' star_target )+ [','] 
+    | star_target ',' 
+
+star_target:
+    | '*' (!'*' star_target) 
+    | target_with_star_atom
+
+target_with_star_atom:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | star_atom
+
+star_atom:
+    | NAME 
+    | '(' target_with_star_atom ')' 
+    | '(' [star_targets_tuple_seq] ')' 
+    | '[' [star_targets_list_seq] ']' 
+
+single_target:
+    | single_subscript_attribute_target
+    | NAME 
+    | '(' single_target ')' 
+
+single_subscript_attribute_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+
+t_primary:
+    | t_primary '.' NAME &t_lookahead 
+    | t_primary '[' slices ']' &t_lookahead 
+    | t_primary genexp &t_lookahead 
+    | t_primary '(' [arguments] ')' &t_lookahead 
+    | atom &t_lookahead 
+
+t_lookahead: '(' | '[' | '.'
+
+# TYPING ELEMENTS (Extended)
+# ---------------
+
+# type_expressions allow */** but ignore them
+type_expressions:
+    | ','.expression+ ',' '*' expression ',' '**' expression 
+    | ','.expression+ ',' '*' expression 
+    | ','.expression+ ',' '**' expression 
+    | '*' expression ',' '**' expression 
+    | '*' expression 
+    | '**' expression 
+    | ','.expression+ 
+
+func_type_comment:
+    | NEWLINE TYPE_COMMENT &(NEWLINE INDENT)   # Must be followed by indented block
+    | TYPE_COMMENT
+
+# EXCEPTION HANDLING (Extended)
+# -------------------
+
+try_stmt:
+    | TRY ':' suite except_clause+ [else_clause] [finally_clause] 
+    | TRY ':' suite [else_clause] [finally_clause] 
+
+except_clause:
+    | EXCEPT [type_param] [AS NAME] ':' suite 
+
+else_clause:
+    | ELSE ':' suite 
+
+finally_clause:
+    | FINALLY ':' suite 
+
+# WITH STATEMENT (Extended)
+# -------------------
+
+with_stmt:
+    | WITH ','.with_item+ ':' suite 
+
+with_item:
+    | with_item_colon
+    | t_primary
+
+with_item_colon:
+    | t_primary AS [expr] 
+
+# CLASS DEFINITION (Extended)
+# -------------------
+
+classdef:
+    | CLASS NAME [type_params] [':' type_params] [class_list] ':' suite 
+
+class_list:
+    | '(' ','.expression+ ')' 
+
+# FUNCTION DEFINITION (Extended)
+# -------------------
+
+funcdef:
+    | DEF NAME [parameters] [':' type_params] ['->' expression] [func_type_comment] ':' suite 
+
+# PARAMETERS (Extended)
+# -------------------
+
+parameters:
+    | '(' [typedargslist] ')' 
+
+typedargslist:
+    | t_fpdef [':' expression] [',' t_fpdef [':' expression]]* [',' [t_starred_and_default]] [',' t_double_starred_and_default] 
+    | [t_starred_and_default] [',' t_double_starred_and_default] 
+    | [t_double_starred_and_default] 
+
+t_fpdef:
+    | NAME 
+    | '(' [typedargslist] ')' 
+
+t_starred_and_default:
+    | '*' t_fpdef [':' expression] 
+
+t_double_starred_and_default:
+    | '**' t_fpdef [':' expression] 
+
+# EXPRESSIONS (Extended)
+# --------------------
+
+expression:
+    | disjunction 'if' disjunction 'else' expression 
+    | disjunction
+    | lambdef
+    | test_assignment
+
+test_assignment:
+    | or_test (assignment_operator test_assignment)? 
+
+assignment_operator:
+    | [TYPE_IGNORE | TYPE_COMMENT] '=' 
+    | ADD_ASSIGN 
+    | SUB_ASSIGN 
+    | MULT_ASSIGN 
+    | AT_ASSIGN 
+    | DIV_ASSIGN 
+    | MOD_ASSIGN 
+    | AND_ASSIGN 
+    | OR_ASSIGN 
+    | XOR_ASSIGN 
+    | LEFT_SHIFT_ASSIGN 
+    | RIGHT_SHIFT_ASSIGN 
+    | POWER_ASSIGN 
+    | IDIV_ASSIGN 
+
+# BINARY OPERATORS (Extended)
+# -------------------------
+
+or_test:
+    | and_test ('or' and_test)* 
+
+and_test:
+    | not_test ('and' not_test)* 
+
+not_test:
+    | 'not' not_test 
+    | comparison # Comparison operators (Extended)
+# ------------------------------
+
+comparison:
+    | bitwise_or compare_op_bitwise_or_pair+ 
+    | bitwise_or
+
+compare_op_bitwise_or_pair:
+    | eq_bitwise_or
+    | noteq_bitwise_or
+    | lte_bitwise_or
+    | lt_bitwise_or
+    | gte_bitwise_or
+    | gt_bitwise_or
+    | notin_bitwise_or
+    | in_bitwise_or
+    | isnot_bitwise_or
+    | is_bitwise_or
+
+eq_bitwise_or: '==' bitwise_or 
+noteq_bitwise_or:
+    | ('!=' ) bitwise_or 
+lte_bitwise_or: '<=' bitwise_or 
+lt_bitwise_or: '<' bitwise_or 
+gte_bitwise_or: '>=' bitwise_or 
+gt_bitwise_or: '>' bitwise_or 
+notin_bitwise_or: 'not' 'in' bitwise_or 
+in_bitwise_or: 'in' bitwise_or 
+isnot_bitwise_or: 'is' 'not' bitwise_or 
+is_bitwise_or: 'is' bitwise_or 
+
+# Binary operators (Extended)
+# --------------------------
+
+bitwise_or:
+    | bitwise_or '|' bitwise_xor 
+    | bitwise_xor
+
+bitwise_xor:
+    | bitwise_xor '^' bitwise_and 
+    | bitwise_and
+
+bitwise_and:
+    | bitwise_and '&' shift_expr 
+    | shift_expr
+
+shift_expr:
+    | shift_expr '<<' sum 
+    | shift_expr '>>' sum 
+    | sum
+
+# Arithmetic operators (Extended)
+# ------------------------------
+
+sum:
+    | sum '+' term 
+    | sum '-' term 
+    | term
+
+term:
+    | term '*' factor 
+    | term '/' factor 
+    | term '//' factor 
+    | term '%' factor 
+    | term '@' factor 
+    | factor
+
+factor:
+    | '+' factor 
+    | '-' factor 
+    | '~' factor 
+    | power
+
+power:
+    | await_primary '**' factor 
+    | await_primary
+
+# Primary elements (Extended)
+# --------------------------
+
+# Primary elements are things like "obj.something.something", "obj[something]", "obj(something)", "obj" ...
+
+await_primary:
+    | AWAIT primary 
+    | primary
+
+primary:
+    | primary '.' NAME 
+    | primary genexp 
+    | primary '(' [arguments] ')' 
+    | primary '[' slices ']' 
+    | atom
+
+slices:
+    | slice !',' 
+    | ','.(slice | starred_expression)+ [','] 
+
+slice:
+    | [expression] ':' [expression] [':' [expression] ] 
+    | named_expression 
+
+atom:
+    | NAME
+    | 'True' 
+    | 'False' 
+    | 'None' 
+    | strings
+    | NUMBER
+    | (tuple | group | genexp)
+    | (list | listcomp)
+    | (dict | set | dictcomp | setcomp)
+    | '...' 
+
+group:
+    | '(' (yield_expr | named_expression) ')' 
+
+# Lambda functions (Extended)
+# --------------------------
+
+lambdef:
+    | 'lambda' [lambda_params] ':' expression 
+
+lambda_params:
+    | lambda_parameters
+
+# lambda_parameters etc. duplicates parameters but without annotations
+# or type comments, and if there's no comma after a parameter, we expect
+# a colon, not a close parenthesis.  (For more, see parameters above.)
+#
+lambda_parameters:
+    | lambda_slash_no_default lambda_param_no_default* lambda_param_with_default* [lambda_star_etc] 
+    | lambda_slash_with_default lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_no_default+ lambda_param_with_default* [lambda_star_etc] 
+    | lambda_param_with_default+ [lambda_star_etc] 
+    | lambda_star_etc 
+
+lambda_slash_no_default:
+    | lambda_param_no_default+ '/' ',' 
+    | lambda_param_no_default+ '/' &':' 
+
+lambda_slash_with_default:
+    | lambda_param_no_default* lambda_param_with_default+ '/' ',' 
+    | lambda_param_no_default* lambda_param_with_default+ '/' &':' 
+
+lambda_star_etc:
+    | '*' lambda_param_no_default lambda_param_maybe_default* [lambda_kwds] 
+    | '*' ',' lambda_param_maybe_default+ [lambda_kwds] 
+    | lambda_kwds 
+
+lambda_kwds:
+    | '**' lambda_param_no_default 
+
+lambda_param_no_default:
+    | lambda_param ',' 
+    | lambda_param &':' 
+lambda_param_with_default:
+    | lambda_param default ',' 
+    | lambda_param default &':' 
+lambda_param_maybe_default:
+    | lambda_param default? ',' 
+    | lambda_param default? &':' 
+lambda_param: NAME 
+
+# LITERALS (Extended)
+# ========
+
+fstring_middle:
+    | fstring_replacement_field
+    | FSTRING_MIDDLE 
+fstring_replacement_field:
+    | '{' (yield_expr | star_expressions) '='? [fstring_conversion] [fstring_full_format_spec] '}' 
+fstring_conversion:
+    | "!" NAME 
+fstring_full_format_spec:
+    | ':' fstring_format_spec* 
+fstring_format_spec:
+    | FSTRING_MIDDLE 
+    | fstring_replacement_field
+fstring:
+    | FSTRING_START fstring_middle* FSTRING_END 
+
+string: STRING 
+strings: (fstring|string)+ 
+
+list:
+    | '[' [star_named_expressions] ']' 
+
+tuple:
+    | '(' [star_named_expression ',' [star_named_expressions]  ] ')' 
+
+set: '{' star_named_expressions '}' 
+
+# Dicts (Extended)
+# -----
+
+dict:
+    | '{' [double_starred_kvpairs] '}' 
+
+double_starred_kvpairs: ','.double_starred_kvpair+ [','] 
+
+double_starred_kvpair:
+    | '**' expression 
+    | kvpair
+
+kvpair: expression ':' expression 
+
+# Comprehensions & Generators (Extended)
+# ---------------------------
+
+for_if_clauses:
+    | for_if_clause+ 
+
+for_if_clause:
+    | ASYNC 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+    | 'for' star_targets 'in' ~ disjunction ('if' disjunction )* 
+
+listcomp:
+    | '[' named_expression for_if_clauses ']' 
+
+setcomp:
+    | '{' named_expression for_if_clauses '}' 
+
+genexp:
+    | '(' ( assignment_expression | expression !':=') for_if_clauses ')' 
+
+dictcomp:
+    | '{' kvpair for_if_clauses '}' 
+
+# FUNCTION CALL ARGUMENTS (Extended)
+# =======================
+
+arguments:
+    | args [','] &')' 
+
+args:
+    | ','.(starred_expression | ( assignment_expression | expression !':=') !'=')+ [',' kwargs ] 
+    | kwargs 
+
+kwargs:
+    | ','.kwarg_or_starred+ ',' ','.kwarg_or_double_starred+ 
+    | ','.kwarg_or_starred+
+    | ','.kwarg_or_double_starred+
+
+starred_expression:
+    | '*' expression 
+
+kwarg_or_starred:
+    | NAME '=' expression 
+    | starred_expression 
+
+kwarg_or_double_starred:
+    | NAME '=' expression 
+    | '**' expression 
+
+# ASSIGNMENT TARGETS (Extended)
+# ==================
+
+# Generic targets
+# ---------------
+
+# NOTE: star_targets may contain *bitwise_or, targets may not.
+star_targets:
+    | star_target !',' 
+    | star_target (',' star_target )* [','] 
+
+star_targets_list_seq: ','.star_target+ [','] 
+
+star_targets_tuple_seq:
+    | star_target (',' star_target )+ [','] 
+    | star_target ',' 
+
+star_target:
+    | '*' (!'*' star_target) 
+    | target_with_star_atom
+
+target_with_star_atom:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+    | star_atom
+
+star_atom:
+    | NAME 
+    | '(' target_with_star_atom ')' 
+    | '(' [star_targets_tuple_seq] ')' 
+    | '[' [star_targets_list_seq] ']' 
+
+single_target:
+    | single_subscript_attribute_target
+    | NAME 
+    | '(' single_target ')' 
+
+single_subscript_attribute_target:
+    | t_primary '.' NAME !t_lookahead 
+    | t_primary '[' slices ']' !t_lookahead 
+
+t_primary:
+    | t_primary '.' NAME &t_lookahead 
+    | t_primary '[' slices ']' &t_lookahead 
+    | t_primary genexp &t_lookahead 
+    | t_primary '(' [arguments] ')' &t_lookahead 
+    | atom &t_lookahead 
+
+t_lookahead: '(' | '[' | '.'
+
+# TYPING ELEMENTS (Extended)
+# ---------------
+
+# type_expressions allow */** but ignore them
+type_expressions:
+    | ','.expression+ ',' '*' expression ',' '**' expression 
+    | ','.expression+ ',' '*' expression 
+    | ','.expression+ ',' '**' expression 
+    | '*' expression ',' '**' expression 
+    | '*' expression 
+    | '**' expression 
+    | ','.expression+ 
+
+func_type_comment:
+    | NEWLINE TYPE_COMMENT &(NEWLINE INDENT)   # Must be followed by indented block
+    | TYPE_COMMENT
+```
+
